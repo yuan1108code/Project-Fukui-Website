@@ -20,8 +20,9 @@ const highlightIcon = L.icon({
     popupAnchor: [0, -45]
 });
 
-// 📍 定義地區標記及對應 `template.html` 與 **景點圖片**
+// 📍 定義福井縣所有市町的標記，包含 **對應的景點圖片**
 const regions = [
+    // ✅ 福井市區
     { name: "福井市", coords: [36.0641, 136.2192], img: "static/images/fukui.jpg" },
     { name: "坂井市", coords: [36.1676, 136.2222], img: "static/images/sakai.jpg" },
     { name: "越前市", coords: [35.9044, 136.1689], img: "static/images/echizen.jpg" },
@@ -31,9 +32,19 @@ const regions = [
     { name: "小浜市", coords: [35.4958, 135.7468], img: "static/images/obama.jpg" },
     { name: "蘆原市", coords: [36.2111, 136.2794], img: "static/images/awara.jpg" },
     { name: "勝山市", coords: [36.0585, 136.5008], img: "static/images/katsuyama.jpg" },
-    { name: "越前町", coords: [35.9675, 136.1092], img: "static/images/echizen-town.jpg" }
-];
 
+    // ✅ 町村（町）
+    { name: "永平寺町", coords: [36.0913, 136.3871], img: "static/images/eiheiji.jpg" },
+    { name: "池田町", coords: [35.8753, 136.2474], img: "static/images/ikeda.jpg" },
+    { name: "南越前町", coords: [35.7564, 136.0553], img: "static/images/minami-echizen.jpeg" },
+    { name: "越前町", coords: [35.9675, 136.1092], img: "static/images/echizen-town.jpg" },
+
+    // ✅ 若狹地區（敦賀市、小濱市、美濱町、若狹町、高濱町、大飯町）
+    { name: "美浜町", coords: [35.5856, 135.9932], img: "static/images/mihama.jpg" },
+    { name: "若狹町", coords: [35.4801, 135.9256], img: "static/images/wakasa.jpg" },
+    { name: "高浜町", coords: [35.4782, 135.5271], img: "static/images/takahama.jpg" },
+    { name: "大飯町", coords: [35.4825, 135.6467], img: "static/images/ooi.jpeg" }
+];
 // 📍 添加標記點及點擊事件
 regions.forEach(region => {
     const marker = L.marker(region.coords, { 

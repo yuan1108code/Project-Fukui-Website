@@ -322,7 +322,7 @@
     
         Promise.all([
           fetch('./data/city_Google_Trends.json').then(response => response.json()),
-          fetch('./data/city_Github.json').then(response => response.json())
+          fetch('./data/city_GitHub.json').then(response => response.json())
         ])
         .then(([googleData, githubData]) => {
           console.log("🔍 Google Trends 資料:", googleData);
