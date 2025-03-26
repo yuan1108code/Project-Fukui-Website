@@ -1,0 +1,4320 @@
+{
+  "福井市": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 217.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 208.0,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 119.5,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 116.5,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 95.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 83.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 310.0,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 465.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 192.5,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 143.0,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 113.0,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 403.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 257.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 104.0,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 117.5,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 163.5,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 223.5,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 285.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 222.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 45.0,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 202.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 216.0,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 294.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 367.5,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 221.0,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 160.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 221.5,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 135.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 206.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 213.0,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 397.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 83.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 43.5,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 234.5,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 278.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 481.0,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "敦賀市": {
+    "2022-01": {
+      "average_temp": 4.2,
+      "rainfall": 211.0,
+      "min_temp": 1.3,
+      "max_temp": 7.2,
+      "sunshine_hours": 68.0
+    },
+    "2022-02": {
+      "average_temp": 3.5,
+      "rainfall": 247.0,
+      "min_temp": 0.8,
+      "max_temp": 6.8,
+      "sunshine_hours": 69.0
+    },
+    "2022-03": {
+      "average_temp": 9.4,
+      "rainfall": 98.5,
+      "min_temp": 5.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 130.2
+    },
+    "2022-04": {
+      "average_temp": 15.1,
+      "rainfall": 89.0,
+      "min_temp": 10.9,
+      "max_temp": 19.7,
+      "sunshine_hours": 195.6
+    },
+    "2022-05": {
+      "average_temp": 18.6,
+      "rainfall": 106.5,
+      "min_temp": 14.2,
+      "max_temp": 23.5,
+      "sunshine_hours": 207.7
+    },
+    "2022-06": {
+      "average_temp": 23.6,
+      "rainfall": 89.0,
+      "min_temp": 19.9,
+      "max_temp": 27.8,
+      "sunshine_hours": 191.0
+    },
+    "2022-07": {
+      "average_temp": 27.3,
+      "rainfall": 223.5,
+      "min_temp": 24.2,
+      "max_temp": 31.1,
+      "sunshine_hours": 157.9
+    },
+    "2022-08": {
+      "average_temp": 28.3,
+      "rainfall": 367.0,
+      "min_temp": 25.0,
+      "max_temp": 32.4,
+      "sunshine_hours": 173.6
+    },
+    "2022-09": {
+      "average_temp": 25.0,
+      "rainfall": 121.0,
+      "min_temp": 22.0,
+      "max_temp": 28.8,
+      "sunshine_hours": 147.3
+    },
+    "2022-10": {
+      "average_temp": 17.7,
+      "rainfall": 89.5,
+      "min_temp": 13.4,
+      "max_temp": 22.0,
+      "sunshine_hours": 163.4
+    },
+    "2022-11": {
+      "average_temp": 14.3,
+      "rainfall": 102.0,
+      "min_temp": 10.2,
+      "max_temp": 18.9,
+      "sunshine_hours": 141.8
+    },
+    "2022-12": {
+      "average_temp": 6.8,
+      "rainfall": 322.5,
+      "min_temp": 4.0,
+      "max_temp": 9.8,
+      "sunshine_hours": 57.4
+    },
+    "2023-01": {
+      "average_temp": 4.7,
+      "rainfall": 277.5,
+      "min_temp": 2.0,
+      "max_temp": 7.7,
+      "sunshine_hours": 56.2
+    },
+    "2023-02": {
+      "average_temp": 5.8,
+      "rainfall": 109.5,
+      "min_temp": 2.6,
+      "max_temp": 9.1,
+      "sunshine_hours": 97.6
+    },
+    "2023-03": {
+      "average_temp": 11.4,
+      "rainfall": 114.5,
+      "min_temp": 6.9,
+      "max_temp": 16.2,
+      "sunshine_hours": 195.5
+    },
+    "2023-04": {
+      "average_temp": 14.6,
+      "rainfall": 160.5,
+      "min_temp": 10.1,
+      "max_temp": 19.1,
+      "sunshine_hours": 167.0
+    },
+    "2023-05": {
+      "average_temp": 18.9,
+      "rainfall": 231.0,
+      "min_temp": 14.8,
+      "max_temp": 23.6,
+      "sunshine_hours": 218.2
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 342.0,
+      "min_temp": 19.0,
+      "max_temp": 26.5,
+      "sunshine_hours": 128.1
+    },
+    "2023-07": {
+      "average_temp": 28.0,
+      "rainfall": 227.0,
+      "min_temp": 24.6,
+      "max_temp": 32.2,
+      "sunshine_hours": 235.9
+    },
+    "2023-08": {
+      "average_temp": 30.0,
+      "rainfall": 113.5,
+      "min_temp": 26.9,
+      "max_temp": 34.3,
+      "sunshine_hours": 246.0
+    },
+    "2023-09": {
+      "average_temp": 26.7,
+      "rainfall": 197.0,
+      "min_temp": 23.6,
+      "max_temp": 31.0,
+      "sunshine_hours": 159.6
+    },
+    "2023-10": {
+      "average_temp": 17.9,
+      "rainfall": 164.0,
+      "min_temp": 14.0,
+      "max_temp": 22.6,
+      "sunshine_hours": 176.2
+    },
+    "2023-11": {
+      "average_temp": 14.0,
+      "rainfall": 161.5,
+      "min_temp": 10.2,
+      "max_temp": 17.9,
+      "sunshine_hours": 126.9
+    },
+    "2023-12": {
+      "average_temp": 8.4,
+      "rainfall": 319.5,
+      "min_temp": 5.2,
+      "max_temp": 12.0,
+      "sunshine_hours": 99.0
+    },
+    "2024-01": {
+      "average_temp": 6.1,
+      "rainfall": 241.0,
+      "min_temp": 2.8,
+      "max_temp": 9.3,
+      "sunshine_hours": 83.7
+    },
+    "2024-02": {
+      "average_temp": 7.4,
+      "rainfall": 143.0,
+      "min_temp": 4.6,
+      "max_temp": 10.5,
+      "sunshine_hours": 90.2
+    },
+    "2024-03": {
+      "average_temp": 8.1,
+      "rainfall": 186.0,
+      "min_temp": 4.4,
+      "max_temp": 11.8,
+      "sunshine_hours": 114.8
+    },
+    "2024-04": {
+      "average_temp": 15.9,
+      "rainfall": 172.5,
+      "min_temp": 11.8,
+      "max_temp": 19.8,
+      "sunshine_hours": 173.2
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 187.5,
+      "min_temp": 14.0,
+      "max_temp": 22.7,
+      "sunshine_hours": 190.1
+    },
+    "2024-06": {
+      "average_temp": 23.1,
+      "rainfall": 191.5,
+      "min_temp": 19.5,
+      "max_temp": 27.1,
+      "sunshine_hours": 179.4
+    },
+    "2024-07": {
+      "average_temp": 28.1,
+      "rainfall": 276.0,
+      "min_temp": 25.0,
+      "max_temp": 32.0,
+      "sunshine_hours": 160.3
+    },
+    "2024-08": {
+      "average_temp": 29.0,
+      "rainfall": 74.5,
+      "min_temp": 25.8,
+      "max_temp": 33.0,
+      "sunshine_hours": 206.6
+    },
+    "2024-09": {
+      "average_temp": 27.6,
+      "rainfall": 49.5,
+      "min_temp": 24.5,
+      "max_temp": 31.7,
+      "sunshine_hours": 206.2
+    },
+    "2024-10": {
+      "average_temp": 20.6,
+      "rainfall": 227.0,
+      "min_temp": 16.9,
+      "max_temp": 24.4,
+      "sunshine_hours": 143.8
+    },
+    "2024-11": {
+      "average_temp": 13.9,
+      "rainfall": 187.0,
+      "min_temp": 10.3,
+      "max_temp": 17.7,
+      "sunshine_hours": 127.3
+    },
+    "2024-12": {
+      "average_temp": 7.1,
+      "rainfall": 428.5,
+      "min_temp": 4.3,
+      "max_temp": 9.9,
+      "sunshine_hours": 47.6
+    }
+  },
+  "勝山市": {
+    "2022-01": {
+      "average_temp": -0.2,
+      "rainfall": 162.5,
+      "min_temp": -3.3,
+      "max_temp": 3.4,
+      "sunshine_hours": 70.2
+    },
+    "2022-02": {
+      "average_temp": 0.1,
+      "rainfall": 153.5,
+      "min_temp": -3.1,
+      "max_temp": 4.3,
+      "sunshine_hours": 71.0
+    },
+    "2022-03": {
+      "average_temp": 5.7,
+      "rainfall": 106.0,
+      "min_temp": 1.1,
+      "max_temp": 11.7,
+      "sunshine_hours": 127.2
+    },
+    "2022-04": {
+      "average_temp": 13.2,
+      "rainfall": 124.0,
+      "min_temp": 7.6,
+      "max_temp": 19.7,
+      "sunshine_hours": 194.0
+    },
+    "2022-05": {
+      "average_temp": 17.0,
+      "rainfall": 82.5,
+      "min_temp": 11.2,
+      "max_temp": 23.0,
+      "sunshine_hours": 209.7
+    },
+    "2022-06": {
+      "average_temp": 22.3,
+      "rainfall": 63.5,
+      "min_temp": 17.4,
+      "max_temp": 27.9,
+      "sunshine_hours": 195.4
+    },
+    "2022-07": {
+      "average_temp": 25.6,
+      "rainfall": 302.0,
+      "min_temp": 21.8,
+      "max_temp": 30.6,
+      "sunshine_hours": 166.6
+    },
+    "2022-08": {
+      "average_temp": 26.2,
+      "rainfall": 401.0,
+      "min_temp": 22.5,
+      "max_temp": 31.0,
+      "sunshine_hours": 149.6
+    },
+    "2022-09": {
+      "average_temp": 23.5,
+      "rainfall": 166.5,
+      "min_temp": 19.9,
+      "max_temp": 28.1,
+      "sunshine_hours": 120.6
+    },
+    "2022-10": {
+      "average_temp": 14.9,
+      "rainfall": 104.0,
+      "min_temp": 10.0,
+      "max_temp": 20.8,
+      "sunshine_hours": 170.3
+    },
+    "2022-11": {
+      "average_temp": 11.6,
+      "rainfall": 119.0,
+      "min_temp": 6.9,
+      "max_temp": 17.3,
+      "sunshine_hours": 160.2
+    },
+    "2022-12": {
+      "average_temp": 2.6,
+      "rainfall": 373.0,
+      "min_temp": 0.0,
+      "max_temp": 5.9,
+      "sunshine_hours": 43.0
+    },
+    "2023-01": {
+      "average_temp": 0.9,
+      "rainfall": 168.0,
+      "min_temp": -2.0,
+      "max_temp": 4.7,
+      "sunshine_hours": 77.8
+    },
+    "2023-02": {
+      "average_temp": 1.5,
+      "rainfall": 101.0,
+      "min_temp": -2.2,
+      "max_temp": 5.8,
+      "sunshine_hours": 92.3
+    },
+    "2023-03": {
+      "average_temp": 9.1,
+      "rainfall": 124.5,
+      "min_temp": 3.4,
+      "max_temp": 15.7,
+      "sunshine_hours": 195.1
+    },
+    "2023-04": {
+      "average_temp": 12.9,
+      "rainfall": 171.5,
+      "min_temp": 6.7,
+      "max_temp": 19.0,
+      "sunshine_hours": 180.3
+    },
+    "2023-05": {
+      "average_temp": 17.4,
+      "rainfall": 290.0,
+      "min_temp": 12.1,
+      "max_temp": 23.1,
+      "sunshine_hours": 219.3
+    },
+    "2023-06": {
+      "average_temp": 21.4,
+      "rainfall": 318.0,
+      "min_temp": 17.2,
+      "max_temp": 26.3,
+      "sunshine_hours": 153.0
+    },
+    "2023-07": {
+      "average_temp": 26.1,
+      "rainfall": 267.0,
+      "min_temp": 21.7,
+      "max_temp": 31.4,
+      "sunshine_hours": 220.9
+    },
+    "2023-08": {
+      "average_temp": 28.4,
+      "rainfall": 66.0,
+      "min_temp": 24.4,
+      "max_temp": 33.6,
+      "sunshine_hours": 214.5
+    },
+    "2023-09": {
+      "average_temp": 24.7,
+      "rainfall": 110.5,
+      "min_temp": 20.8,
+      "max_temp": 30.0,
+      "sunshine_hours": 145.2
+    },
+    "2023-10": {
+      "average_temp": 14.6,
+      "rainfall": 157.5,
+      "min_temp": 10.1,
+      "max_temp": 20.7,
+      "sunshine_hours": 176.5
+    },
+    "2023-11": {
+      "average_temp": 10.8,
+      "rainfall": 231.5,
+      "min_temp": 6.2,
+      "max_temp": 16.5,
+      "sunshine_hours": 125.1
+    },
+    "2023-12": {
+      "average_temp": 4.3,
+      "rainfall": 307.5,
+      "min_temp": 0.8,
+      "max_temp": 8.8,
+      "sunshine_hours": 84.9
+    },
+    "2024-01": {
+      "average_temp": 1.8,
+      "rainfall": 206.0,
+      "min_temp": -1.4,
+      "max_temp": 5.4,
+      "sunshine_hours": 79.2
+    },
+    "2024-02": {
+      "average_temp": 4.1,
+      "rainfall": 151.5,
+      "min_temp": 0.6,
+      "max_temp": 8.5,
+      "sunshine_hours": 97.5
+    },
+    "2024-03": {
+      "average_temp": 5.0,
+      "rainfall": 230.0,
+      "min_temp": 0.7,
+      "max_temp": 9.6,
+      "sunshine_hours": 98.7
+    },
+    "2024-04": {
+      "average_temp": 15.0,
+      "rainfall": 141.5,
+      "min_temp": 9.5,
+      "max_temp": 20.8,
+      "sunshine_hours": 181.8
+    },
+    "2024-05": {
+      "average_temp": 17.2,
+      "rainfall": 214.5,
+      "min_temp": 11.5,
+      "max_temp": 23.0,
+      "sunshine_hours": 190.3
+    },
+    "2024-06": {
+      "average_temp": 21.9,
+      "rainfall": 255.5,
+      "min_temp": 17.3,
+      "max_temp": 27.2,
+      "sunshine_hours": 189.0
+    },
+    "2024-07": {
+      "average_temp": 25.8,
+      "rainfall": 386.0,
+      "min_temp": 22.1,
+      "max_temp": 30.7,
+      "sunshine_hours": 128.1
+    },
+    "2024-08": {
+      "average_temp": 27.7,
+      "rainfall": 72.5,
+      "min_temp": 23.8,
+      "max_temp": 32.8,
+      "sunshine_hours": 208.1
+    },
+    "2024-09": {
+      "average_temp": 25.5,
+      "rainfall": 38.0,
+      "min_temp": 21.3,
+      "max_temp": 30.9,
+      "sunshine_hours": 177.4
+    },
+    "2024-10": {
+      "average_temp": 18.4,
+      "rainfall": 196.0,
+      "min_temp": 14.1,
+      "max_temp": 23.5,
+      "sunshine_hours": 138.6
+    },
+    "2024-11": {
+      "average_temp": 11.0,
+      "rainfall": 221.0,
+      "min_temp": 6.4,
+      "max_temp": 16.0,
+      "sunshine_hours": 116.8
+    },
+    "2024-12": {
+      "average_temp": 2.3,
+      "rainfall": 458.0,
+      "min_temp": 0.1,
+      "max_temp": 5.2,
+      "sunshine_hours": 40.7
+    }
+  },
+  "坂井市": {
+    "2022-01": {
+      "average_temp": 3.2,
+      "rainfall": 133.5,
+      "min_temp": 0.3,
+      "max_temp": 6.6,
+      "sunshine_hours": 79.7
+    },
+    "2022-02": {
+      "average_temp": 3.3,
+      "rainfall": 91.0,
+      "min_temp": 0.0,
+      "max_temp": 7.2,
+      "sunshine_hours": 94.9
+    },
+    "2022-03": {
+      "average_temp": 8.3,
+      "rainfall": 94.5,
+      "min_temp": 4.1,
+      "max_temp": 13.1,
+      "sunshine_hours": 157.0
+    },
+    "2022-04": {
+      "average_temp": 13.4,
+      "rainfall": 114.5,
+      "min_temp": 8.7,
+      "max_temp": 18.6,
+      "sunshine_hours": 218.6
+    },
+    "2022-05": {
+      "average_temp": 17.6,
+      "rainfall": 87.0,
+      "min_temp": 12.9,
+      "max_temp": 22.7,
+      "sunshine_hours": 238.3
+    },
+    "2022-06": {
+      "average_temp": 22.5,
+      "rainfall": 100.5,
+      "min_temp": 18.9,
+      "max_temp": 26.8,
+      "sunshine_hours": 230.8
+    },
+    "2022-07": {
+      "average_temp": 26.2,
+      "rainfall": 180.5,
+      "min_temp": 23.2,
+      "max_temp": 30.4,
+      "sunshine_hours": 201.8
+    },
+    "2022-08": {
+      "average_temp": 27.1,
+      "rainfall": 294.0,
+      "min_temp": 23.8,
+      "max_temp": 31.5,
+      "sunshine_hours": 185.0
+    },
+    "2022-09": {
+      "average_temp": 23.9,
+      "rainfall": 174.5,
+      "min_temp": 20.5,
+      "max_temp": 27.7,
+      "sunshine_hours": 164.8
+    },
+    "2022-10": {
+      "average_temp": 16.7,
+      "rainfall": 164.5,
+      "min_temp": 12.4,
+      "max_temp": 21.3,
+      "sunshine_hours": 169.5
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 106.0,
+      "min_temp": 8.8,
+      "max_temp": 18.2,
+      "sunshine_hours": 156.4
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 305.5,
+      "min_temp": 3.0,
+      "max_temp": 9.3,
+      "sunshine_hours": 54.0
+    },
+    "2023-01": {
+      "average_temp": 3.8,
+      "rainfall": 208.5,
+      "min_temp": 0.9,
+      "max_temp": 7.6,
+      "sunshine_hours": 67.7
+    },
+    "2023-02": {
+      "average_temp": 4.4,
+      "rainfall": 101.0,
+      "min_temp": 0.9,
+      "max_temp": 8.3,
+      "sunshine_hours": 91.6
+    },
+    "2023-03": {
+      "average_temp": 10.2,
+      "rainfall": 104.0,
+      "min_temp": 5.3,
+      "max_temp": 15.7,
+      "sunshine_hours": 213.4
+    },
+    "2023-04": {
+      "average_temp": 13.4,
+      "rainfall": 152.5,
+      "min_temp": 8.5,
+      "max_temp": 18.0,
+      "sunshine_hours": 189.7
+    },
+    "2023-05": {
+      "average_temp": 17.7,
+      "rainfall": 215.5,
+      "min_temp": 13.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 225.5
+    },
+    "2023-06": {
+      "average_temp": 21.9,
+      "rainfall": 314.0,
+      "min_temp": 18.3,
+      "max_temp": 26.2,
+      "sunshine_hours": 178.3
+    },
+    "2023-07": {
+      "average_temp": 26.8,
+      "rainfall": 289.5,
+      "min_temp": 23.2,
+      "max_temp": 31.1,
+      "sunshine_hours": 242.1
+    },
+    "2023-08": {
+      "average_temp": 29.7,
+      "rainfall": 30.0,
+      "min_temp": 25.7,
+      "max_temp": 35.1,
+      "sunshine_hours": 267.0
+    },
+    "2023-09": {
+      "average_temp": 25.7,
+      "rainfall": 156.0,
+      "min_temp": 22.6,
+      "max_temp": 30.1,
+      "sunshine_hours": 155.2
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 171.0,
+      "min_temp": 12.9,
+      "max_temp": 22.1,
+      "sunshine_hours": 182.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 248.5,
+      "min_temp": 8.6,
+      "max_temp": 17.5,
+      "sunshine_hours": 118.0
+    },
+    "2023-12": {
+      "average_temp": 7.0,
+      "rainfall": 349.5,
+      "min_temp": 3.6,
+      "max_temp": 11.2,
+      "sunshine_hours": 75.2
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 211.5,
+      "min_temp": 1.7,
+      "max_temp": 8.6,
+      "sunshine_hours": 80.6
+    },
+    "2024-02": {
+      "average_temp": 6.2,
+      "rainfall": 151.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 173.5,
+      "min_temp": 3.3,
+      "max_temp": 11.6,
+      "sunshine_hours": 135.0
+    },
+    "2024-04": {
+      "average_temp": 14.4,
+      "rainfall": 144.5,
+      "min_temp": 10.1,
+      "max_temp": 19.1,
+      "sunshine_hours": 202.2
+    },
+    "2024-05": {
+      "average_temp": 17.6,
+      "rainfall": 185.0,
+      "min_temp": 12.9,
+      "max_temp": 22.5,
+      "sunshine_hours": 205.3
+    },
+    "2024-06": {
+      "average_temp": 22.4,
+      "rainfall": 164.5,
+      "min_temp": 18.8,
+      "max_temp": 26.7,
+      "sunshine_hours": 224.1
+    },
+    "2024-07": {
+      "average_temp": 26.9,
+      "rainfall": 318.5,
+      "min_temp": 23.9,
+      "max_temp": 31.0,
+      "sunshine_hours": 169.2
+    },
+    "2024-08": {
+      "average_temp": 28.3,
+      "rainfall": 76.5,
+      "min_temp": 25.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 262.1
+    },
+    "2024-09": {
+      "average_temp": 26.4,
+      "rainfall": 46.5,
+      "min_temp": 22.9,
+      "max_temp": 30.7,
+      "sunshine_hours": 211.6
+    },
+    "2024-10": {
+      "average_temp": 19.5,
+      "rainfall": 231.0,
+      "min_temp": 15.7,
+      "max_temp": 23.8,
+      "sunshine_hours": 150.9
+    },
+    "2024-11": {
+      "average_temp": 12.6,
+      "rainfall": 249.0,
+      "min_temp": 8.4,
+      "max_temp": 17.0,
+      "sunshine_hours": 117.3
+    },
+    "2024-12": {
+      "average_temp": 6.0,
+      "rainfall": 368.5,
+      "min_temp": 3.1,
+      "max_temp": 9.7,
+      "sunshine_hours": 44.4
+    }
+  },
+  "永平寺町": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 217.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 208.0,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 119.5,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 116.5,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 95.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 83.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 310.0,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 465.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 192.5,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 143.0,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 113.0,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 403.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 257.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 104.0,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 117.5,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 163.5,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 223.5,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 285.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 222.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 45.0,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 202.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 216.0,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 294.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 367.5,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 221.0,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 160.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 221.5,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 135.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 206.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 213.0,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 397.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 83.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 43.5,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 234.5,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 278.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 481.0,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "小濱市": {
+    "2022-01": {
+      "average_temp": 3.3,
+      "rainfall": 150.5,
+      "min_temp": 0.1,
+      "max_temp": 6.6,
+      "sunshine_hours": 58.2
+    },
+    "2022-02": {
+      "average_temp": 2.2,
+      "rainfall": 209.5,
+      "min_temp": -1.4,
+      "max_temp": 6.1,
+      "sunshine_hours": 68.7
+    },
+    "2022-03": {
+      "average_temp": 8.4,
+      "rainfall": 106.0,
+      "min_temp": 3.5,
+      "max_temp": 13.8,
+      "sunshine_hours": 121.7
+    },
+    "2022-04": {
+      "average_temp": 14.0,
+      "rainfall": 81.5,
+      "min_temp": 8.7,
+      "max_temp": 19.9,
+      "sunshine_hours": 195.5
+    },
+    "2022-05": {
+      "average_temp": 18.0,
+      "rainfall": 66.0,
+      "min_temp": 12.4,
+      "max_temp": 24.3,
+      "sunshine_hours": 208.8
+    },
+    "2022-06": {
+      "average_temp": 23.2,
+      "rainfall": 82.0,
+      "min_temp": 18.7,
+      "max_temp": 28.6,
+      "sunshine_hours": 183.0
+    },
+    "2022-07": {
+      "average_temp": 26.8,
+      "rainfall": 156.0,
+      "min_temp": 23.0,
+      "max_temp": 31.7,
+      "sunshine_hours": 150.4
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 237.5,
+      "min_temp": 23.8,
+      "max_temp": 33.3,
+      "sunshine_hours": 171.5
+    },
+    "2022-09": {
+      "average_temp": 24.3,
+      "rainfall": 221.0,
+      "min_temp": 20.6,
+      "max_temp": 28.9,
+      "sunshine_hours": 121.4
+    },
+    "2022-10": {
+      "average_temp": 16.6,
+      "rainfall": 131.0,
+      "min_temp": 11.8,
+      "max_temp": 21.8,
+      "sunshine_hours": 154.1
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 83.0,
+      "min_temp": 8.3,
+      "max_temp": 18.5,
+      "sunshine_hours": 138.6
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 112.5,
+      "min_temp": 1.9,
+      "max_temp": 9.9,
+      "sunshine_hours": 94.6
+    },
+    "2023-01": {
+      "average_temp": 3.5,
+      "rainfall": 278.0,
+      "min_temp": -0.2,
+      "max_temp": 7.5,
+      "sunshine_hours": 60.9
+    },
+    "2023-02": {
+      "average_temp": 4.9,
+      "rainfall": 73.5,
+      "min_temp": 0.9,
+      "max_temp": 8.8,
+      "sunshine_hours": 80.8
+    },
+    "2023-03": {
+      "average_temp": 10.5,
+      "rainfall": 95.5,
+      "min_temp": 4.8,
+      "max_temp": 16.7,
+      "sunshine_hours": 193.3
+    },
+    "2023-04": {
+      "average_temp": 13.9,
+      "rainfall": 121.5,
+      "min_temp": 8.6,
+      "max_temp": 19.2,
+      "sunshine_hours": 163.9
+    },
+    "2023-05": {
+      "average_temp": 18.2,
+      "rainfall": 185.5,
+      "min_temp": 13.3,
+      "max_temp": 24.0,
+      "sunshine_hours": 202.3
+    },
+    "2023-06": {
+      "average_temp": 22.4,
+      "rainfall": 168.5,
+      "min_temp": 18.2,
+      "max_temp": 27.6,
+      "sunshine_hours": 118.9
+    },
+    "2023-07": {
+      "average_temp": 27.6,
+      "rainfall": 112.0,
+      "min_temp": 23.2,
+      "max_temp": 33.2,
+      "sunshine_hours": 223.8
+    },
+    "2023-08": {
+      "average_temp": 29.5,
+      "rainfall": 109.0,
+      "min_temp": 25.4,
+      "max_temp": 34.9,
+      "sunshine_hours": 229.3
+    },
+    "2023-09": {
+      "average_temp": 25.8,
+      "rainfall": 121.5,
+      "min_temp": 22.1,
+      "max_temp": 31.2,
+      "sunshine_hours": 135.6
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 157.5,
+      "min_temp": 12.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 171.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 122.0,
+      "min_temp": 7.9,
+      "max_temp": 18.1,
+      "sunshine_hours": 132.4
+    },
+    "2023-12": {
+      "average_temp": 7.8,
+      "rainfall": 85.0,
+      "min_temp": 3.4,
+      "max_temp": 12.5,
+      "sunshine_hours": 119.6
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 196.5,
+      "min_temp": 1.4,
+      "max_temp": 9.0,
+      "sunshine_hours": 74.3
+    },
+    "2024-02": {
+      "average_temp": 6.7,
+      "rainfall": 104.0,
+      "min_temp": 3.5,
+      "max_temp": 10.3,
+      "sunshine_hours": 47.0
+    },
+    "2024-03": {
+      "average_temp": 7.2,
+      "rainfall": 174.0,
+      "min_temp": 2.9,
+      "max_temp": 11.7,
+      "sunshine_hours": 110.5
+    },
+    "2024-04": {
+      "average_temp": 15.3,
+      "rainfall": 143.0,
+      "min_temp": 10.4,
+      "max_temp": 20.6,
+      "sunshine_hours": 175.8
+    },
+    "2024-05": {
+      "average_temp": 17.8,
+      "rainfall": 182.0,
+      "min_temp": 12.5,
+      "max_temp": 23.2,
+      "sunshine_hours": 187.9
+    },
+    "2024-06": {
+      "average_temp": 22.8,
+      "rainfall": 189.5,
+      "min_temp": 18.5,
+      "max_temp": 28.2,
+      "sunshine_hours": 172.0
+    },
+    "2024-07": {
+      "average_temp": 27.6,
+      "rainfall": 303.5,
+      "min_temp": 23.7,
+      "max_temp": 33.4,
+      "sunshine_hours": 177.9
+    },
+    "2024-08": {
+      "average_temp": 28.2,
+      "rainfall": 34.5,
+      "min_temp": 24.5,
+      "max_temp": 32.9,
+      "sunshine_hours": 186.7
+    },
+    "2024-09": {
+      "average_temp": 26.9,
+      "rainfall": 66.0,
+      "min_temp": 22.8,
+      "max_temp": 32.5,
+      "sunshine_hours": 207.4
+    },
+    "2024-10": {
+      "average_temp": 19.8,
+      "rainfall": 253.0,
+      "min_temp": 15.8,
+      "max_temp": 24.4,
+      "sunshine_hours": 121.9
+    },
+    "2024-11": {
+      "average_temp": 13.0,
+      "rainfall": 213.5,
+      "min_temp": 8.5,
+      "max_temp": 17.6,
+      "sunshine_hours": 124.2
+    },
+    "2024-12": {
+      "average_temp": 6.3,
+      "rainfall": 215.0,
+      "min_temp": 2.7,
+      "max_temp": 10.3,
+      "sunshine_hours": 61.3
+    }
+  },
+  "大野市": {
+    "2022-01": {
+      "average_temp": -0.3,
+      "rainfall": 193.0,
+      "min_temp": -4.2,
+      "max_temp": 3.6,
+      "sunshine_hours": 64.0
+    },
+    "2022-02": {
+      "average_temp": 0.0,
+      "rainfall": 200.0,
+      "min_temp": -3.8,
+      "max_temp": 4.4,
+      "sunshine_hours": 59.0
+    },
+    "2022-03": {
+      "average_temp": 5.4,
+      "rainfall": 120.5,
+      "min_temp": 0.5,
+      "max_temp": 11.6,
+      "sunshine_hours": 116.1
+    },
+    "2022-04": {
+      "average_temp": 13.6,
+      "rainfall": 114.5,
+      "min_temp": 7.6,
+      "max_temp": 20.1,
+      "sunshine_hours": 191.8
+    },
+    "2022-05": {
+      "average_temp": 17.4,
+      "rainfall": 79.5,
+      "min_temp": 12.0,
+      "max_temp": 23.2,
+      "sunshine_hours": 207.0
+    },
+    "2022-06": {
+      "average_temp": 22.6,
+      "rainfall": 71.5,
+      "min_temp": 17.9,
+      "max_temp": 27.7,
+      "sunshine_hours": 192.4
+    },
+    "2022-07": {
+      "average_temp": 25.9,
+      "rainfall": 256.0,
+      "min_temp": 22.2,
+      "max_temp": 30.4,
+      "sunshine_hours": 162.7
+    },
+    "2022-08": {
+      "average_temp": 26.4,
+      "rainfall": 381.5,
+      "min_temp": 22.8,
+      "max_temp": 30.9,
+      "sunshine_hours": 140.8
+    },
+    "2022-09": {
+      "average_temp": 23.7,
+      "rainfall": 154.0,
+      "min_temp": 20.3,
+      "max_temp": 28.4,
+      "sunshine_hours": 121.4
+    },
+    "2022-10": {
+      "average_temp": 15.0,
+      "rainfall": 80.0,
+      "min_temp": 10.0,
+      "max_temp": 20.9,
+      "sunshine_hours": 154.6
+    },
+    "2022-11": {
+      "average_temp": 11.6,
+      "rainfall": 80.0,
+      "min_temp": 6.5,
+      "max_temp": 17.3,
+      "sunshine_hours": 145.0
+    },
+    "2022-12": {
+      "average_temp": 2.9,
+      "rainfall": 400.0,
+      "min_temp": 0.4,
+      "max_temp": 6.1,
+      "sunshine_hours": 37.4
+    },
+    "2023-01": {
+      "average_temp": 1.0,
+      "rainfall": 186.5,
+      "min_temp": -2.2,
+      "max_temp": 5.0,
+      "sunshine_hours": 62.4
+    },
+    "2023-02": {
+      "average_temp": 1.6,
+      "rainfall": 106.0,
+      "min_temp": -2.7,
+      "max_temp": 6.1,
+      "sunshine_hours": 81.6
+    },
+    "2023-03": {
+      "average_temp": 9.2,
+      "rainfall": 110.0,
+      "min_temp": 3.2,
+      "max_temp": 16.0,
+      "sunshine_hours": 192.0
+    },
+    "2023-04": {
+      "average_temp": 13.1,
+      "rainfall": 142.0,
+      "min_temp": 6.9,
+      "max_temp": 19.1,
+      "sunshine_hours": 178.0
+    },
+    "2023-05": {
+      "average_temp": 17.6,
+      "rainfall": 264.5,
+      "min_temp": 12.6,
+      "max_temp": 23.3,
+      "sunshine_hours": 223.1
+    },
+    "2023-06": {
+      "average_temp": 21.6,
+      "rainfall": 294.5,
+      "min_temp": 17.6,
+      "max_temp": 26.4,
+      "sunshine_hours": 152.8
+    },
+    "2023-07": {
+      "average_temp": 26.6,
+      "rainfall": 219.0,
+      "min_temp": 22.2,
+      "max_temp": 31.5,
+      "sunshine_hours": 227.5
+    },
+    "2023-08": {
+      "average_temp": 28.4,
+      "rainfall": 119.5,
+      "min_temp": 24.7,
+      "max_temp": 33.3,
+      "sunshine_hours": 205.8
+    },
+    "2023-09": {
+      "average_temp": 25.0,
+      "rainfall": 103.0,
+      "min_temp": 21.1,
+      "max_temp": 30.1,
+      "sunshine_hours": 136.2
+    },
+    "2023-10": {
+      "average_temp": 14.7,
+      "rainfall": 146.0,
+      "min_temp": 10.0,
+      "max_temp": 20.8,
+      "sunshine_hours": 167.8
+    },
+    "2023-11": {
+      "average_temp": 10.7,
+      "rainfall": 233.0,
+      "min_temp": 5.7,
+      "max_temp": 16.5,
+      "sunshine_hours": 111.9
+    },
+    "2023-12": {
+      "average_temp": 4.1,
+      "rainfall": 298.5,
+      "min_temp": 0.6,
+      "max_temp": 8.7,
+      "sunshine_hours": 76.8
+    },
+    "2024-01": {
+      "average_temp": 1.8,
+      "rainfall": 209.0,
+      "min_temp": -1.8,
+      "max_temp": 5.8,
+      "sunshine_hours": 74.4
+    },
+    "2024-02": {
+      "average_temp": 4.3,
+      "rainfall": 149.5,
+      "min_temp": 0.6,
+      "max_temp": 8.6,
+      "sunshine_hours": 89.4
+    },
+    "2024-03": {
+      "average_temp": 5.3,
+      "rainfall": 219.5,
+      "min_temp": 0.9,
+      "max_temp": 10.1,
+      "sunshine_hours": 89.9
+    },
+    "2024-04": {
+      "average_temp": 15.2,
+      "rainfall": 107.5,
+      "min_temp": 9.5,
+      "max_temp": 21.0,
+      "sunshine_hours": 180.5
+    },
+    "2024-05": {
+      "average_temp": 17.5,
+      "rainfall": 178.5,
+      "min_temp": 12.1,
+      "max_temp": 22.9,
+      "sunshine_hours": 190.6
+    },
+    "2024-06": {
+      "average_temp": 22.3,
+      "rainfall": 249.0,
+      "min_temp": 17.9,
+      "max_temp": 27.3,
+      "sunshine_hours": 191.0
+    },
+    "2024-07": {
+      "average_temp": 26.0,
+      "rainfall": 316.0,
+      "min_temp": 22.4,
+      "max_temp": 30.5,
+      "sunshine_hours": 127.3
+    },
+    "2024-08": {
+      "average_temp": 27.5,
+      "rainfall": 105.0,
+      "min_temp": 23.9,
+      "max_temp": 32.3,
+      "sunshine_hours": 190.9
+    },
+    "2024-09": {
+      "average_temp": 25.4,
+      "rainfall": 56.0,
+      "min_temp": 21.2,
+      "max_temp": 30.8,
+      "sunshine_hours": 166.4
+    },
+    "2024-10": {
+      "average_temp": 18.0,
+      "rainfall": 191.0,
+      "min_temp": 13.7,
+      "max_temp": 23.3,
+      "sunshine_hours": 126.5
+    },
+    "2024-11": {
+      "average_temp": 11.3,
+      "rainfall": 234.5,
+      "min_temp": 6.7,
+      "max_temp": 16.2,
+      "sunshine_hours": 106.0
+    },
+    "2024-12": {
+      "average_temp": 2.6,
+      "rainfall": 488.0,
+      "min_temp": 0.3,
+      "max_temp": 5.7,
+      "sunshine_hours": 35.1
+    }
+  },
+  "鯖江市": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 245.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 183.5,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 129.0,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 104.0,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 86.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 91.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 198.5,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 414.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 175.0,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 123.5,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 100.5,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 384.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 225.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 103.5,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 102.0,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 159.0,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 203.0,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 344.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 209.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 21.5,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 220.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 222.5,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 275.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 299.0,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 192.5,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 163.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 182.0,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 138.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 200.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 231.5,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 260.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 60.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 41.0,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 190.0,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 222.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 508.5,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "蘆原市": {
+    "2022-01": {
+      "average_temp": 3.2,
+      "rainfall": 133.5,
+      "min_temp": 0.3,
+      "max_temp": 6.6,
+      "sunshine_hours": 79.7
+    },
+    "2022-02": {
+      "average_temp": 3.3,
+      "rainfall": 91.0,
+      "min_temp": 0.0,
+      "max_temp": 7.2,
+      "sunshine_hours": 94.9
+    },
+    "2022-03": {
+      "average_temp": 8.3,
+      "rainfall": 94.5,
+      "min_temp": 4.1,
+      "max_temp": 13.1,
+      "sunshine_hours": 157.0
+    },
+    "2022-04": {
+      "average_temp": 13.4,
+      "rainfall": 114.5,
+      "min_temp": 8.7,
+      "max_temp": 18.6,
+      "sunshine_hours": 218.6
+    },
+    "2022-05": {
+      "average_temp": 17.6,
+      "rainfall": 87.0,
+      "min_temp": 12.9,
+      "max_temp": 22.7,
+      "sunshine_hours": 238.3
+    },
+    "2022-06": {
+      "average_temp": 22.5,
+      "rainfall": 100.5,
+      "min_temp": 18.9,
+      "max_temp": 26.8,
+      "sunshine_hours": 230.8
+    },
+    "2022-07": {
+      "average_temp": 26.2,
+      "rainfall": 180.5,
+      "min_temp": 23.2,
+      "max_temp": 30.4,
+      "sunshine_hours": 201.8
+    },
+    "2022-08": {
+      "average_temp": 27.1,
+      "rainfall": 294.0,
+      "min_temp": 23.8,
+      "max_temp": 31.5,
+      "sunshine_hours": 185.0
+    },
+    "2022-09": {
+      "average_temp": 23.9,
+      "rainfall": 174.5,
+      "min_temp": 20.5,
+      "max_temp": 27.7,
+      "sunshine_hours": 164.8
+    },
+    "2022-10": {
+      "average_temp": 16.7,
+      "rainfall": 164.5,
+      "min_temp": 12.4,
+      "max_temp": 21.3,
+      "sunshine_hours": 169.5
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 106.0,
+      "min_temp": 8.8,
+      "max_temp": 18.2,
+      "sunshine_hours": 156.4
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 305.5,
+      "min_temp": 3.0,
+      "max_temp": 9.3,
+      "sunshine_hours": 54.0
+    },
+    "2023-01": {
+      "average_temp": 3.8,
+      "rainfall": 208.5,
+      "min_temp": 0.9,
+      "max_temp": 7.6,
+      "sunshine_hours": 67.7
+    },
+    "2023-02": {
+      "average_temp": 4.4,
+      "rainfall": 101.0,
+      "min_temp": 0.9,
+      "max_temp": 8.3,
+      "sunshine_hours": 91.6
+    },
+    "2023-03": {
+      "average_temp": 10.2,
+      "rainfall": 104.0,
+      "min_temp": 5.3,
+      "max_temp": 15.7,
+      "sunshine_hours": 213.4
+    },
+    "2023-04": {
+      "average_temp": 13.4,
+      "rainfall": 152.5,
+      "min_temp": 8.5,
+      "max_temp": 18.0,
+      "sunshine_hours": 189.7
+    },
+    "2023-05": {
+      "average_temp": 17.7,
+      "rainfall": 215.5,
+      "min_temp": 13.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 225.5
+    },
+    "2023-06": {
+      "average_temp": 21.9,
+      "rainfall": 314.0,
+      "min_temp": 18.3,
+      "max_temp": 26.2,
+      "sunshine_hours": 178.3
+    },
+    "2023-07": {
+      "average_temp": 26.8,
+      "rainfall": 289.5,
+      "min_temp": 23.2,
+      "max_temp": 31.1,
+      "sunshine_hours": 242.1
+    },
+    "2023-08": {
+      "average_temp": 29.7,
+      "rainfall": 30.0,
+      "min_temp": 25.7,
+      "max_temp": 35.1,
+      "sunshine_hours": 267.0
+    },
+    "2023-09": {
+      "average_temp": 25.7,
+      "rainfall": 156.0,
+      "min_temp": 22.6,
+      "max_temp": 30.1,
+      "sunshine_hours": 155.2
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 171.0,
+      "min_temp": 12.9,
+      "max_temp": 22.1,
+      "sunshine_hours": 182.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 248.5,
+      "min_temp": 8.6,
+      "max_temp": 17.5,
+      "sunshine_hours": 118.0
+    },
+    "2023-12": {
+      "average_temp": 7.0,
+      "rainfall": 349.5,
+      "min_temp": 3.6,
+      "max_temp": 11.2,
+      "sunshine_hours": 75.2
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 211.5,
+      "min_temp": 1.7,
+      "max_temp": 8.6,
+      "sunshine_hours": 80.6
+    },
+    "2024-02": {
+      "average_temp": 6.2,
+      "rainfall": 151.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 173.5,
+      "min_temp": 3.3,
+      "max_temp": 11.6,
+      "sunshine_hours": 135.0
+    },
+    "2024-04": {
+      "average_temp": 14.4,
+      "rainfall": 144.5,
+      "min_temp": 10.1,
+      "max_temp": 19.1,
+      "sunshine_hours": 202.2
+    },
+    "2024-05": {
+      "average_temp": 17.6,
+      "rainfall": 185.0,
+      "min_temp": 12.9,
+      "max_temp": 22.5,
+      "sunshine_hours": 205.3
+    },
+    "2024-06": {
+      "average_temp": 22.4,
+      "rainfall": 164.5,
+      "min_temp": 18.8,
+      "max_temp": 26.7,
+      "sunshine_hours": 224.1
+    },
+    "2024-07": {
+      "average_temp": 26.9,
+      "rainfall": 318.5,
+      "min_temp": 23.9,
+      "max_temp": 31.0,
+      "sunshine_hours": 169.2
+    },
+    "2024-08": {
+      "average_temp": 28.3,
+      "rainfall": 76.5,
+      "min_temp": 25.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 262.1
+    },
+    "2024-09": {
+      "average_temp": 26.4,
+      "rainfall": 46.5,
+      "min_temp": 22.9,
+      "max_temp": 30.7,
+      "sunshine_hours": 211.6
+    },
+    "2024-10": {
+      "average_temp": 19.5,
+      "rainfall": 231.0,
+      "min_temp": 15.7,
+      "max_temp": 23.8,
+      "sunshine_hours": 150.9
+    },
+    "2024-11": {
+      "average_temp": 12.6,
+      "rainfall": 249.0,
+      "min_temp": 8.4,
+      "max_temp": 17.0,
+      "sunshine_hours": 117.3
+    },
+    "2024-12": {
+      "average_temp": 6.0,
+      "rainfall": 368.5,
+      "min_temp": 3.1,
+      "max_temp": 9.7,
+      "sunshine_hours": 44.4
+    }
+  },
+  "越前市": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 245.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 183.5,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 129.0,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 104.0,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 86.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 91.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 198.5,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 414.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 175.0,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 123.5,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 100.5,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 384.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 225.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 103.5,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 102.0,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 159.0,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 203.0,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 344.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 209.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 21.5,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 220.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 222.5,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 275.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 299.0,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 192.5,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 163.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 182.0,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 138.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 200.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 231.5,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 260.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 60.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 41.0,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 190.0,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 222.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 508.5,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "池田町": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 245.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 183.5,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 129.0,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 104.0,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 86.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 91.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 198.5,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 414.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 175.0,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 123.5,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 100.5,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 384.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 225.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 103.5,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 102.0,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 159.0,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 203.0,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 344.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 209.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 21.5,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 220.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 222.5,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 275.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 299.0,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 192.5,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 163.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 182.0,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 138.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 200.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 231.5,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 260.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 60.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 41.0,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 190.0,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 222.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 508.5,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "南越前町": {
+    "2022-01": {
+      "average_temp": 0.9,
+      "rainfall": 275.0,
+      "min_temp": -1.5,
+      "max_temp": 4.1,
+      "sunshine_hours": 63.2
+    },
+    "2022-02": {
+      "average_temp": 0.9,
+      "rainfall": 292.0,
+      "min_temp": -1.7,
+      "max_temp": 4.8,
+      "sunshine_hours": 62.3
+    },
+    "2022-03": {
+      "average_temp": 6.1,
+      "rainfall": 138.5,
+      "min_temp": 1.6,
+      "max_temp": 12.2,
+      "sunshine_hours": 123.3
+    },
+    "2022-04": {
+      "average_temp": 12.8,
+      "rainfall": 113.5,
+      "min_temp": 6.9,
+      "max_temp": 19.7,
+      "sunshine_hours": 192.0
+    },
+    "2022-05": {
+      "average_temp": 16.3,
+      "rainfall": 84.5,
+      "min_temp": 10.1,
+      "max_temp": 22.9,
+      "sunshine_hours": 209.6
+    },
+    "2022-06": {
+      "average_temp": 21.9,
+      "rainfall": 117.0,
+      "min_temp": 17.1,
+      "max_temp": 27.6,
+      "sunshine_hours": 185.9
+    },
+    "2022-07": {
+      "average_temp": 25.2,
+      "rainfall": 244.5,
+      "min_temp": 21.4,
+      "max_temp": 30.6,
+      "sunshine_hours": 155.7
+    },
+    "2022-08": {
+      "average_temp": 25.8,
+      "rainfall": 627.0,
+      "min_temp": 21.9,
+      "max_temp": 31.1,
+      "sunshine_hours": 158.2
+    },
+    "2022-09": {
+      "average_temp": 22.9,
+      "rainfall": 161.5,
+      "min_temp": 19.2,
+      "max_temp": 27.7,
+      "sunshine_hours": 122.9
+    },
+    "2022-10": {
+      "average_temp": 14.7,
+      "rainfall": 123.5,
+      "min_temp": 10.3,
+      "max_temp": 20.5,
+      "sunshine_hours": 158.0
+    },
+    "2022-11": {
+      "average_temp": 11.4,
+      "rainfall": 113.0,
+      "min_temp": 7.1,
+      "max_temp": 17.1,
+      "sunshine_hours": 142.9
+    },
+    "2022-12": {
+      "average_temp": 3.5,
+      "rainfall": 568.5,
+      "min_temp": 1.3,
+      "max_temp": 6.6,
+      "sunshine_hours": 34.5
+    },
+    "2023-01": {
+      "average_temp": 1.8,
+      "rainfall": 252.5,
+      "min_temp": -0.6,
+      "max_temp": 5.4,
+      "sunshine_hours": 53.2
+    },
+    "2023-02": {
+      "average_temp": 2.1,
+      "rainfall": 142.0,
+      "min_temp": -1.0,
+      "max_temp": 6.6,
+      "sunshine_hours": 86.4
+    },
+    "2023-03": {
+      "average_temp": 8.9,
+      "rainfall": 134.0,
+      "min_temp": 3.1,
+      "max_temp": 15.8,
+      "sunshine_hours": 195.9
+    },
+    "2023-04": {
+      "average_temp": 12.6,
+      "rainfall": 177.5,
+      "min_temp": 6.7,
+      "max_temp": 18.8,
+      "sunshine_hours": 167.0
+    },
+    "2023-05": {
+      "average_temp": 17.0,
+      "rainfall": 243.0,
+      "min_temp": 11.7,
+      "max_temp": 23.1,
+      "sunshine_hours": 215.7
+    },
+    "2023-06": {
+      "average_temp": 20.9,
+      "rainfall": 364.0,
+      "min_temp": 16.7,
+      "max_temp": 26.0,
+      "sunshine_hours": 136.9
+    },
+    "2023-07": {
+      "average_temp": 25.8,
+      "rainfall": 225.0,
+      "min_temp": 21.5,
+      "max_temp": 31.5,
+      "sunshine_hours": 228.2
+    },
+    "2023-08": {
+      "average_temp": 28.0,
+      "rainfall": 99.5,
+      "min_temp": 23.6,
+      "max_temp": 33.6,
+      "sunshine_hours": 208.3
+    },
+    "2023-09": {
+      "average_temp": 24.3,
+      "rainfall": 159.5,
+      "min_temp": 20.4,
+      "max_temp": 30.0,
+      "sunshine_hours": 128.6
+    },
+    "2023-10": {
+      "average_temp": 14.8,
+      "rainfall": 186.0,
+      "min_temp": 10.8,
+      "max_temp": 20.8,
+      "sunshine_hours": 169.1
+    },
+    "2023-11": {
+      "average_temp": 10.9,
+      "rainfall": 352.5,
+      "min_temp": 6.7,
+      "max_temp": 16.6,
+      "sunshine_hours": 117.2
+    },
+    "2023-12": {
+      "average_temp": 5.3,
+      "rainfall": 415.0,
+      "min_temp": 2.1,
+      "max_temp": 9.8,
+      "sunshine_hours": 75.2
+    },
+    "2024-01": {
+      "average_temp": 2.9,
+      "rainfall": 281.5,
+      "min_temp": 0.0,
+      "max_temp": 6.8,
+      "sunshine_hours": 80.1
+    },
+    "2024-02": {
+      "average_temp": 4.4,
+      "rainfall": 167.0,
+      "min_temp": 1.1,
+      "max_temp": 8.7,
+      "sunshine_hours": 80.4
+    },
+    "2024-03": {
+      "average_temp": 5.7,
+      "rainfall": 217.5,
+      "min_temp": 1.5,
+      "max_temp": 10.4,
+      "sunshine_hours": 96.4
+    },
+    "2024-04": {
+      "average_temp": 14.4,
+      "rainfall": 147.0,
+      "min_temp": 8.9,
+      "max_temp": 20.6,
+      "sunshine_hours": 174.2
+    },
+    "2024-05": {
+      "average_temp": 16.6,
+      "rainfall": 204.5,
+      "min_temp": 11.1,
+      "max_temp": 22.6,
+      "sunshine_hours": 186.2
+    },
+    "2024-06": {
+      "average_temp": 21.4,
+      "rainfall": 248.5,
+      "min_temp": 16.8,
+      "max_temp": 27.0,
+      "sunshine_hours": 170.0
+    },
+    "2024-07": {
+      "average_temp": 26.1,
+      "rainfall": 249.5,
+      "min_temp": 22.6,
+      "max_temp": 31.0,
+      "sunshine_hours": 142.5
+    },
+    "2024-08": {
+      "average_temp": 27.0,
+      "rainfall": 96.5,
+      "min_temp": 23.3,
+      "max_temp": 32.2,
+      "sunshine_hours": 181.5
+    },
+    "2024-09": {
+      "average_temp": 25.3,
+      "rainfall": 53.5,
+      "min_temp": 21.3,
+      "max_temp": 31.0,
+      "sunshine_hours": 178.8
+    },
+    "2024-10": {
+      "average_temp": 18.2,
+      "rainfall": 255.5,
+      "min_temp": 14.3,
+      "max_temp": 23.1,
+      "sunshine_hours": 131.3
+    },
+    "2024-11": {
+      "average_temp": 11.1,
+      "rainfall": 342.0,
+      "min_temp": 7.0,
+      "max_temp": 16.3,
+      "sunshine_hours": 112.7
+    },
+    "2024-12": {
+      "average_temp": 3.5,
+      "rainfall": 743.5,
+      "min_temp": 1.3,
+      "max_temp": 7.1,
+      "sunshine_hours": 36.8
+    }
+  },
+  "越前町": {
+    "2022-01": {
+      "average_temp": 2.4,
+      "rainfall": 245.5,
+      "min_temp": -0.2,
+      "max_temp": 5.7,
+      "sunshine_hours": 82.6
+    },
+    "2022-02": {
+      "average_temp": 2.6,
+      "rainfall": 183.5,
+      "min_temp": -0.4,
+      "max_temp": 6.8,
+      "sunshine_hours": 87.3
+    },
+    "2022-03": {
+      "average_temp": 8.6,
+      "rainfall": 129.0,
+      "min_temp": 4.0,
+      "max_temp": 13.9,
+      "sunshine_hours": 140.7
+    },
+    "2022-04": {
+      "average_temp": 14.4,
+      "rainfall": 104.0,
+      "min_temp": 9.2,
+      "max_temp": 20.6,
+      "sunshine_hours": 207.2
+    },
+    "2022-05": {
+      "average_temp": 18.5,
+      "rainfall": 86.5,
+      "min_temp": 13.2,
+      "max_temp": 24.3,
+      "sunshine_hours": 217.9
+    },
+    "2022-06": {
+      "average_temp": 23.8,
+      "rainfall": 91.0,
+      "min_temp": 19.5,
+      "max_temp": 28.9,
+      "sunshine_hours": 215.9
+    },
+    "2022-07": {
+      "average_temp": 27.2,
+      "rainfall": 198.5,
+      "min_temp": 23.7,
+      "max_temp": 32.0,
+      "sunshine_hours": 182.0
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 414.5,
+      "min_temp": 24.2,
+      "max_temp": 32.5,
+      "sunshine_hours": 165.4
+    },
+    "2022-09": {
+      "average_temp": 24.6,
+      "rainfall": 175.0,
+      "min_temp": 21.2,
+      "max_temp": 29.2,
+      "sunshine_hours": 147.5
+    },
+    "2022-10": {
+      "average_temp": 16.8,
+      "rainfall": 123.5,
+      "min_temp": 12.4,
+      "max_temp": 22.2,
+      "sunshine_hours": 171.0
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 100.5,
+      "min_temp": 8.8,
+      "max_temp": 18.7,
+      "sunshine_hours": 159.3
+    },
+    "2022-12": {
+      "average_temp": 5.3,
+      "rainfall": 384.0,
+      "min_temp": 2.7,
+      "max_temp": 8.7,
+      "sunshine_hours": 49.6
+    },
+    "2023-01": {
+      "average_temp": 3.7,
+      "rainfall": 225.0,
+      "min_temp": 1.0,
+      "max_temp": 7.4,
+      "sunshine_hours": 68.0
+    },
+    "2023-02": {
+      "average_temp": 3.9,
+      "rainfall": 103.5,
+      "min_temp": 0.6,
+      "max_temp": 8.0,
+      "sunshine_hours": 99.2
+    },
+    "2023-03": {
+      "average_temp": 10.7,
+      "rainfall": 102.0,
+      "min_temp": 5.2,
+      "max_temp": 17.3,
+      "sunshine_hours": 203.8
+    },
+    "2023-04": {
+      "average_temp": 14.1,
+      "rainfall": 159.0,
+      "min_temp": 8.7,
+      "max_temp": 19.7,
+      "sunshine_hours": 185.4
+    },
+    "2023-05": {
+      "average_temp": 18.7,
+      "rainfall": 203.0,
+      "min_temp": 14.0,
+      "max_temp": 24.4,
+      "sunshine_hours": 221.5
+    },
+    "2023-06": {
+      "average_temp": 22.7,
+      "rainfall": 344.0,
+      "min_temp": 18.8,
+      "max_temp": 27.6,
+      "sunshine_hours": 146.3
+    },
+    "2023-07": {
+      "average_temp": 27.9,
+      "rainfall": 209.5,
+      "min_temp": 23.8,
+      "max_temp": 32.9,
+      "sunshine_hours": 240.3
+    },
+    "2023-08": {
+      "average_temp": 30.4,
+      "rainfall": 21.5,
+      "min_temp": 26.6,
+      "max_temp": 35.2,
+      "sunshine_hours": 250.6
+    },
+    "2023-09": {
+      "average_temp": 26.2,
+      "rainfall": 220.0,
+      "min_temp": 22.7,
+      "max_temp": 31.2,
+      "sunshine_hours": 153.8
+    },
+    "2023-10": {
+      "average_temp": 16.7,
+      "rainfall": 222.5,
+      "min_temp": 12.6,
+      "max_temp": 22.5,
+      "sunshine_hours": 175.9
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 275.5,
+      "min_temp": 8.6,
+      "max_temp": 18.0,
+      "sunshine_hours": 127.4
+    },
+    "2023-12": {
+      "average_temp": 6.7,
+      "rainfall": 299.0,
+      "min_temp": 3.5,
+      "max_temp": 10.9,
+      "sunshine_hours": 83.3
+    },
+    "2024-01": {
+      "average_temp": 4.6,
+      "rainfall": 192.5,
+      "min_temp": 1.2,
+      "max_temp": 8.5,
+      "sunshine_hours": 93.0
+    },
+    "2024-02": {
+      "average_temp": 6.1,
+      "rainfall": 163.5,
+      "min_temp": 2.7,
+      "max_temp": 10.4,
+      "sunshine_hours": 105.4
+    },
+    "2024-03": {
+      "average_temp": 7.1,
+      "rainfall": 182.0,
+      "min_temp": 3.2,
+      "max_temp": 11.6,
+      "sunshine_hours": 114.2
+    },
+    "2024-04": {
+      "average_temp": 15.8,
+      "rainfall": 138.0,
+      "min_temp": 10.9,
+      "max_temp": 21.3,
+      "sunshine_hours": 184.1
+    },
+    "2024-05": {
+      "average_temp": 18.4,
+      "rainfall": 200.0,
+      "min_temp": 13.3,
+      "max_temp": 23.7,
+      "sunshine_hours": 203.9
+    },
+    "2024-06": {
+      "average_temp": 23.6,
+      "rainfall": 231.5,
+      "min_temp": 19.4,
+      "max_temp": 28.6,
+      "sunshine_hours": 198.7
+    },
+    "2024-07": {
+      "average_temp": 27.8,
+      "rainfall": 260.5,
+      "min_temp": 24.3,
+      "max_temp": 32.3,
+      "sunshine_hours": 153.6
+    },
+    "2024-08": {
+      "average_temp": 29.1,
+      "rainfall": 60.5,
+      "min_temp": 25.5,
+      "max_temp": 33.8,
+      "sunshine_hours": 237.8
+    },
+    "2024-09": {
+      "average_temp": 27.1,
+      "rainfall": 41.0,
+      "min_temp": 23.4,
+      "max_temp": 32.2,
+      "sunshine_hours": 203.8
+    },
+    "2024-10": {
+      "average_temp": 19.7,
+      "rainfall": 190.0,
+      "min_temp": 15.8,
+      "max_temp": 24.7,
+      "sunshine_hours": 143.3
+    },
+    "2024-11": {
+      "average_temp": 12.5,
+      "rainfall": 222.5,
+      "min_temp": 8.5,
+      "max_temp": 17.4,
+      "sunshine_hours": 129.9
+    },
+    "2024-12": {
+      "average_temp": 5.4,
+      "rainfall": 508.5,
+      "min_temp": 2.9,
+      "max_temp": 8.7,
+      "sunshine_hours": 47.6
+    }
+  },
+  "美浜町": {
+    "2022-01": {
+      "average_temp": 4.1,
+      "rainfall": 176.5,
+      "min_temp": 1.0,
+      "max_temp": 7.3,
+      "sunshine_hours": 68.0
+    },
+    "2022-02": {
+      "average_temp": 3.0,
+      "rainfall": 222.0,
+      "min_temp": -0.1,
+      "max_temp": 6.5,
+      "sunshine_hours": 69.0
+    },
+    "2022-03": {
+      "average_temp": 8.7,
+      "rainfall": 93.5,
+      "min_temp": 4.2,
+      "max_temp": 13.6,
+      "sunshine_hours": 130.2
+    },
+    "2022-04": {
+      "average_temp": 13.9,
+      "rainfall": 79.5,
+      "min_temp": 9.3,
+      "max_temp": 18.9,
+      "sunshine_hours": 195.6
+    },
+    "2022-05": {
+      "average_temp": 17.9,
+      "rainfall": 90.0,
+      "min_temp": 13.0,
+      "max_temp": 23.2,
+      "sunshine_hours": 207.7
+    },
+    "2022-06": {
+      "average_temp": 23.2,
+      "rainfall": 70.5,
+      "min_temp": 18.9,
+      "max_temp": 28.1,
+      "sunshine_hours": 191.0
+    },
+    "2022-07": {
+      "average_temp": 26.9,
+      "rainfall": 205.0,
+      "min_temp": 23.4,
+      "max_temp": 31.3,
+      "sunshine_hours": 157.9
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 341.5,
+      "min_temp": 24.1,
+      "max_temp": 32.6,
+      "sunshine_hours": 173.6
+    },
+    "2022-09": {
+      "average_temp": 24.5,
+      "rainfall": 142.5,
+      "min_temp": 21.2,
+      "max_temp": 28.6,
+      "sunshine_hours": 147.3
+    },
+    "2022-10": {
+      "average_temp": 17.1,
+      "rainfall": 114.5,
+      "min_temp": 12.7,
+      "max_temp": 22.0,
+      "sunshine_hours": 163.4
+    },
+    "2022-11": {
+      "average_temp": 13.8,
+      "rainfall": 103.0,
+      "min_temp": 9.4,
+      "max_temp": 18.7,
+      "sunshine_hours": 141.8
+    },
+    "2022-12": {
+      "average_temp": 6.8,
+      "rainfall": 183.0,
+      "min_temp": 3.4,
+      "max_temp": 10.1,
+      "sunshine_hours": 57.4
+    },
+    "2023-01": {
+      "average_temp": 4.2,
+      "rainfall": 314.0,
+      "min_temp": 1.0,
+      "max_temp": 7.8,
+      "sunshine_hours": 56.2
+    },
+    "2023-02": {
+      "average_temp": 5.4,
+      "rainfall": 77.5,
+      "min_temp": 1.3,
+      "max_temp": 9.0,
+      "sunshine_hours": 97.6
+    },
+    "2023-03": {
+      "average_temp": 10.4,
+      "rainfall": 109.0,
+      "min_temp": 5.1,
+      "max_temp": 16.1,
+      "sunshine_hours": 195.5
+    },
+    "2023-04": {
+      "average_temp": 14.0,
+      "rainfall": 151.0,
+      "min_temp": 9.1,
+      "max_temp": 18.8,
+      "sunshine_hours": 167.0
+    },
+    "2023-05": {
+      "average_temp": 18.3,
+      "rainfall": 204.0,
+      "min_temp": 13.8,
+      "max_temp": 23.3,
+      "sunshine_hours": 218.2
+    },
+    "2023-06": {
+      "average_temp": 22.3,
+      "rainfall": 226.0,
+      "min_temp": 18.5,
+      "max_temp": 26.7,
+      "sunshine_hours": 128.1
+    },
+    "2023-07": {
+      "average_temp": 27.5,
+      "rainfall": 195.0,
+      "min_temp": 23.6,
+      "max_temp": 32.3,
+      "sunshine_hours": 235.9
+    },
+    "2023-08": {
+      "average_temp": 29.7,
+      "rainfall": 80.0,
+      "min_temp": 26.2,
+      "max_temp": 34.3,
+      "sunshine_hours": 246.0
+    },
+    "2023-09": {
+      "average_temp": 26.0,
+      "rainfall": 203.5,
+      "min_temp": 22.4,
+      "max_temp": 30.9,
+      "sunshine_hours": 159.6
+    },
+    "2023-10": {
+      "average_temp": 17.5,
+      "rainfall": 156.5,
+      "min_temp": 13.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 176.2
+    },
+    "2023-11": {
+      "average_temp": 13.4,
+      "rainfall": 219.0,
+      "min_temp": 9.1,
+      "max_temp": 18.1,
+      "sunshine_hours": 126.9
+    },
+    "2023-12": {
+      "average_temp": 8.1,
+      "rainfall": 229.5,
+      "min_temp": 4.2,
+      "max_temp": 12.5,
+      "sunshine_hours": 99.0
+    },
+    "2024-01": {
+      "average_temp": 5.8,
+      "rainfall": 237.0,
+      "min_temp": 2.1,
+      "max_temp": 9.5,
+      "sunshine_hours": 83.7
+    },
+    "2024-02": {
+      "average_temp": 7.1,
+      "rainfall": 143.5,
+      "min_temp": 3.7,
+      "max_temp": 10.7,
+      "sunshine_hours": 90.2
+    },
+    "2024-03": {
+      "average_temp": 7.6,
+      "rainfall": 164.0,
+      "min_temp": 3.6,
+      "max_temp": 11.8,
+      "sunshine_hours": 114.8
+    },
+    "2024-04": {
+      "average_temp": 15.0,
+      "rainfall": 169.0,
+      "min_temp": 10.5,
+      "max_temp": 19.4,
+      "sunshine_hours": 173.2
+    },
+    "2024-05": {
+      "average_temp": 17.9,
+      "rainfall": 164.5,
+      "min_temp": 13.0,
+      "max_temp": 22.7,
+      "sunshine_hours": 190.1
+    },
+    "2024-06": {
+      "average_temp": 22.6,
+      "rainfall": 156.5,
+      "min_temp": 18.7,
+      "max_temp": 27.1,
+      "sunshine_hours": 179.4
+    },
+    "2024-07": {
+      "average_temp": 27.6,
+      "rainfall": 254.5,
+      "min_temp": 24.1,
+      "max_temp": 32.2,
+      "sunshine_hours": 160.3
+    },
+    "2024-08": {
+      "average_temp": 28.6,
+      "rainfall": 36.0,
+      "min_temp": 25.2,
+      "max_temp": 32.8,
+      "sunshine_hours": 206.6
+    },
+    "2024-09": {
+      "average_temp": 27.0,
+      "rainfall": 47.5,
+      "min_temp": 23.5,
+      "max_temp": 31.7,
+      "sunshine_hours": 206.2
+    },
+    "2024-10": {
+      "average_temp": 20.2,
+      "rainfall": 226.5,
+      "min_temp": 16.4,
+      "max_temp": 24.5,
+      "sunshine_hours": 143.8
+    },
+    "2024-11": {
+      "average_temp": 13.5,
+      "rainfall": 175.5,
+      "min_temp": 9.5,
+      "max_temp": 17.8,
+      "sunshine_hours": 127.3
+    },
+    "2024-12": {
+      "average_temp": 7.0,
+      "rainfall": 247.5,
+      "min_temp": 3.7,
+      "max_temp": 10.3,
+      "sunshine_hours": 47.6
+    }
+  },
+  "若狭町": {
+    "2022-01": {
+      "average_temp": 3.3,
+      "rainfall": 150.5,
+      "min_temp": 0.1,
+      "max_temp": 6.6,
+      "sunshine_hours": 58.2
+    },
+    "2022-02": {
+      "average_temp": 2.2,
+      "rainfall": 209.5,
+      "min_temp": -1.4,
+      "max_temp": 6.1,
+      "sunshine_hours": 68.7
+    },
+    "2022-03": {
+      "average_temp": 8.4,
+      "rainfall": 106.0,
+      "min_temp": 3.5,
+      "max_temp": 13.8,
+      "sunshine_hours": 121.7
+    },
+    "2022-04": {
+      "average_temp": 14.0,
+      "rainfall": 81.5,
+      "min_temp": 8.7,
+      "max_temp": 19.9,
+      "sunshine_hours": 195.5
+    },
+    "2022-05": {
+      "average_temp": 18.0,
+      "rainfall": 66.0,
+      "min_temp": 12.4,
+      "max_temp": 24.3,
+      "sunshine_hours": 208.8
+    },
+    "2022-06": {
+      "average_temp": 23.2,
+      "rainfall": 82.0,
+      "min_temp": 18.7,
+      "max_temp": 28.6,
+      "sunshine_hours": 183.0
+    },
+    "2022-07": {
+      "average_temp": 26.8,
+      "rainfall": 156.0,
+      "min_temp": 23.0,
+      "max_temp": 31.7,
+      "sunshine_hours": 150.4
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 237.5,
+      "min_temp": 23.8,
+      "max_temp": 33.3,
+      "sunshine_hours": 171.5
+    },
+    "2022-09": {
+      "average_temp": 24.3,
+      "rainfall": 221.0,
+      "min_temp": 20.6,
+      "max_temp": 28.9,
+      "sunshine_hours": 121.4
+    },
+    "2022-10": {
+      "average_temp": 16.6,
+      "rainfall": 131.0,
+      "min_temp": 11.8,
+      "max_temp": 21.8,
+      "sunshine_hours": 154.1
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 83.0,
+      "min_temp": 8.3,
+      "max_temp": 18.5,
+      "sunshine_hours": 138.6
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 112.5,
+      "min_temp": 1.9,
+      "max_temp": 9.9,
+      "sunshine_hours": 94.6
+    },
+    "2023-01": {
+      "average_temp": 3.5,
+      "rainfall": 278.0,
+      "min_temp": -0.2,
+      "max_temp": 7.5,
+      "sunshine_hours": 60.9
+    },
+    "2023-02": {
+      "average_temp": 4.9,
+      "rainfall": 73.5,
+      "min_temp": 0.9,
+      "max_temp": 8.8,
+      "sunshine_hours": 80.8
+    },
+    "2023-03": {
+      "average_temp": 10.5,
+      "rainfall": 95.5,
+      "min_temp": 4.8,
+      "max_temp": 16.7,
+      "sunshine_hours": 193.3
+    },
+    "2023-04": {
+      "average_temp": 13.9,
+      "rainfall": 121.5,
+      "min_temp": 8.6,
+      "max_temp": 19.2,
+      "sunshine_hours": 163.9
+    },
+    "2023-05": {
+      "average_temp": 18.2,
+      "rainfall": 185.5,
+      "min_temp": 13.3,
+      "max_temp": 24.0,
+      "sunshine_hours": 202.3
+    },
+    "2023-06": {
+      "average_temp": 22.4,
+      "rainfall": 168.5,
+      "min_temp": 18.2,
+      "max_temp": 27.6,
+      "sunshine_hours": 118.9
+    },
+    "2023-07": {
+      "average_temp": 27.6,
+      "rainfall": 112.0,
+      "min_temp": 23.2,
+      "max_temp": 33.2,
+      "sunshine_hours": 223.8
+    },
+    "2023-08": {
+      "average_temp": 29.5,
+      "rainfall": 109.0,
+      "min_temp": 25.4,
+      "max_temp": 34.9,
+      "sunshine_hours": 229.3
+    },
+    "2023-09": {
+      "average_temp": 25.8,
+      "rainfall": 121.5,
+      "min_temp": 22.1,
+      "max_temp": 31.2,
+      "sunshine_hours": 135.6
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 157.5,
+      "min_temp": 12.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 171.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 122.0,
+      "min_temp": 7.9,
+      "max_temp": 18.1,
+      "sunshine_hours": 132.4
+    },
+    "2023-12": {
+      "average_temp": 7.8,
+      "rainfall": 85.0,
+      "min_temp": 3.4,
+      "max_temp": 12.5,
+      "sunshine_hours": 119.6
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 196.5,
+      "min_temp": 1.4,
+      "max_temp": 9.0,
+      "sunshine_hours": 74.3
+    },
+    "2024-02": {
+      "average_temp": 6.7,
+      "rainfall": 104.0,
+      "min_temp": 3.5,
+      "max_temp": 10.3,
+      "sunshine_hours": 47.0
+    },
+    "2024-03": {
+      "average_temp": 7.2,
+      "rainfall": 174.0,
+      "min_temp": 2.9,
+      "max_temp": 11.7,
+      "sunshine_hours": 110.5
+    },
+    "2024-04": {
+      "average_temp": 15.3,
+      "rainfall": 143.0,
+      "min_temp": 10.4,
+      "max_temp": 20.6,
+      "sunshine_hours": 175.8
+    },
+    "2024-05": {
+      "average_temp": 17.8,
+      "rainfall": 182.0,
+      "min_temp": 12.5,
+      "max_temp": 23.2,
+      "sunshine_hours": 187.9
+    },
+    "2024-06": {
+      "average_temp": 22.8,
+      "rainfall": 189.5,
+      "min_temp": 18.5,
+      "max_temp": 28.2,
+      "sunshine_hours": 172.0
+    },
+    "2024-07": {
+      "average_temp": 27.6,
+      "rainfall": 303.5,
+      "min_temp": 23.7,
+      "max_temp": 33.4,
+      "sunshine_hours": 177.9
+    },
+    "2024-08": {
+      "average_temp": 28.2,
+      "rainfall": 34.5,
+      "min_temp": 24.5,
+      "max_temp": 32.9,
+      "sunshine_hours": 186.7
+    },
+    "2024-09": {
+      "average_temp": 26.9,
+      "rainfall": 66.0,
+      "min_temp": 22.8,
+      "max_temp": 32.5,
+      "sunshine_hours": 207.4
+    },
+    "2024-10": {
+      "average_temp": 19.8,
+      "rainfall": 253.0,
+      "min_temp": 15.8,
+      "max_temp": 24.4,
+      "sunshine_hours": 121.9
+    },
+    "2024-11": {
+      "average_temp": 13.0,
+      "rainfall": 213.5,
+      "min_temp": 8.5,
+      "max_temp": 17.6,
+      "sunshine_hours": 124.2
+    },
+    "2024-12": {
+      "average_temp": 6.3,
+      "rainfall": 215.0,
+      "min_temp": 2.7,
+      "max_temp": 10.3,
+      "sunshine_hours": 61.3
+    }
+  },
+  "高浜町": {
+    "2022-01": {
+      "average_temp": 3.3,
+      "rainfall": 150.5,
+      "min_temp": 0.1,
+      "max_temp": 6.6,
+      "sunshine_hours": 58.2
+    },
+    "2022-02": {
+      "average_temp": 2.2,
+      "rainfall": 209.5,
+      "min_temp": -1.4,
+      "max_temp": 6.1,
+      "sunshine_hours": 68.7
+    },
+    "2022-03": {
+      "average_temp": 8.4,
+      "rainfall": 106.0,
+      "min_temp": 3.5,
+      "max_temp": 13.8,
+      "sunshine_hours": 121.7
+    },
+    "2022-04": {
+      "average_temp": 14.0,
+      "rainfall": 81.5,
+      "min_temp": 8.7,
+      "max_temp": 19.9,
+      "sunshine_hours": 195.5
+    },
+    "2022-05": {
+      "average_temp": 18.0,
+      "rainfall": 66.0,
+      "min_temp": 12.4,
+      "max_temp": 24.3,
+      "sunshine_hours": 208.8
+    },
+    "2022-06": {
+      "average_temp": 23.2,
+      "rainfall": 82.0,
+      "min_temp": 18.7,
+      "max_temp": 28.6,
+      "sunshine_hours": 183.0
+    },
+    "2022-07": {
+      "average_temp": 26.8,
+      "rainfall": 156.0,
+      "min_temp": 23.0,
+      "max_temp": 31.7,
+      "sunshine_hours": 150.4
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 237.5,
+      "min_temp": 23.8,
+      "max_temp": 33.3,
+      "sunshine_hours": 171.5
+    },
+    "2022-09": {
+      "average_temp": 24.3,
+      "rainfall": 221.0,
+      "min_temp": 20.6,
+      "max_temp": 28.9,
+      "sunshine_hours": 121.4
+    },
+    "2022-10": {
+      "average_temp": 16.6,
+      "rainfall": 131.0,
+      "min_temp": 11.8,
+      "max_temp": 21.8,
+      "sunshine_hours": 154.1
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 83.0,
+      "min_temp": 8.3,
+      "max_temp": 18.5,
+      "sunshine_hours": 138.6
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 112.5,
+      "min_temp": 1.9,
+      "max_temp": 9.9,
+      "sunshine_hours": 94.6
+    },
+    "2023-01": {
+      "average_temp": 3.5,
+      "rainfall": 278.0,
+      "min_temp": -0.2,
+      "max_temp": 7.5,
+      "sunshine_hours": 60.9
+    },
+    "2023-02": {
+      "average_temp": 4.9,
+      "rainfall": 73.5,
+      "min_temp": 0.9,
+      "max_temp": 8.8,
+      "sunshine_hours": 80.8
+    },
+    "2023-03": {
+      "average_temp": 10.5,
+      "rainfall": 95.5,
+      "min_temp": 4.8,
+      "max_temp": 16.7,
+      "sunshine_hours": 193.3
+    },
+    "2023-04": {
+      "average_temp": 13.9,
+      "rainfall": 121.5,
+      "min_temp": 8.6,
+      "max_temp": 19.2,
+      "sunshine_hours": 163.9
+    },
+    "2023-05": {
+      "average_temp": 18.2,
+      "rainfall": 185.5,
+      "min_temp": 13.3,
+      "max_temp": 24.0,
+      "sunshine_hours": 202.3
+    },
+    "2023-06": {
+      "average_temp": 22.4,
+      "rainfall": 168.5,
+      "min_temp": 18.2,
+      "max_temp": 27.6,
+      "sunshine_hours": 118.9
+    },
+    "2023-07": {
+      "average_temp": 27.6,
+      "rainfall": 112.0,
+      "min_temp": 23.2,
+      "max_temp": 33.2,
+      "sunshine_hours": 223.8
+    },
+    "2023-08": {
+      "average_temp": 29.5,
+      "rainfall": 109.0,
+      "min_temp": 25.4,
+      "max_temp": 34.9,
+      "sunshine_hours": 229.3
+    },
+    "2023-09": {
+      "average_temp": 25.8,
+      "rainfall": 121.5,
+      "min_temp": 22.1,
+      "max_temp": 31.2,
+      "sunshine_hours": 135.6
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 157.5,
+      "min_temp": 12.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 171.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 122.0,
+      "min_temp": 7.9,
+      "max_temp": 18.1,
+      "sunshine_hours": 132.4
+    },
+    "2023-12": {
+      "average_temp": 7.8,
+      "rainfall": 85.0,
+      "min_temp": 3.4,
+      "max_temp": 12.5,
+      "sunshine_hours": 119.6
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 196.5,
+      "min_temp": 1.4,
+      "max_temp": 9.0,
+      "sunshine_hours": 74.3
+    },
+    "2024-02": {
+      "average_temp": 6.7,
+      "rainfall": 104.0,
+      "min_temp": 3.5,
+      "max_temp": 10.3,
+      "sunshine_hours": 47.0
+    },
+    "2024-03": {
+      "average_temp": 7.2,
+      "rainfall": 174.0,
+      "min_temp": 2.9,
+      "max_temp": 11.7,
+      "sunshine_hours": 110.5
+    },
+    "2024-04": {
+      "average_temp": 15.3,
+      "rainfall": 143.0,
+      "min_temp": 10.4,
+      "max_temp": 20.6,
+      "sunshine_hours": 175.8
+    },
+    "2024-05": {
+      "average_temp": 17.8,
+      "rainfall": 182.0,
+      "min_temp": 12.5,
+      "max_temp": 23.2,
+      "sunshine_hours": 187.9
+    },
+    "2024-06": {
+      "average_temp": 22.8,
+      "rainfall": 189.5,
+      "min_temp": 18.5,
+      "max_temp": 28.2,
+      "sunshine_hours": 172.0
+    },
+    "2024-07": {
+      "average_temp": 27.6,
+      "rainfall": 303.5,
+      "min_temp": 23.7,
+      "max_temp": 33.4,
+      "sunshine_hours": 177.9
+    },
+    "2024-08": {
+      "average_temp": 28.2,
+      "rainfall": 34.5,
+      "min_temp": 24.5,
+      "max_temp": 32.9,
+      "sunshine_hours": 186.7
+    },
+    "2024-09": {
+      "average_temp": 26.9,
+      "rainfall": 66.0,
+      "min_temp": 22.8,
+      "max_temp": 32.5,
+      "sunshine_hours": 207.4
+    },
+    "2024-10": {
+      "average_temp": 19.8,
+      "rainfall": 253.0,
+      "min_temp": 15.8,
+      "max_temp": 24.4,
+      "sunshine_hours": 121.9
+    },
+    "2024-11": {
+      "average_temp": 13.0,
+      "rainfall": 213.5,
+      "min_temp": 8.5,
+      "max_temp": 17.6,
+      "sunshine_hours": 124.2
+    },
+    "2024-12": {
+      "average_temp": 6.3,
+      "rainfall": 215.0,
+      "min_temp": 2.7,
+      "max_temp": 10.3,
+      "sunshine_hours": 61.3
+    }
+  },
+  "大飯町": {
+    "2022-01": {
+      "average_temp": 3.3,
+      "rainfall": 105.5,
+      "min_temp": 0.1,
+      "max_temp": 6.6,
+      "sunshine_hours": 58.2
+    },
+    "2022-02": {
+      "average_temp": 2.2,
+      "rainfall": 130.5,
+      "min_temp": -1.4,
+      "max_temp": 6.1,
+      "sunshine_hours": 68.7
+    },
+    "2022-03": {
+      "average_temp": 8.4,
+      "rainfall": 106.5,
+      "min_temp": 3.5,
+      "max_temp": 13.8,
+      "sunshine_hours": 121.7
+    },
+    "2022-04": {
+      "average_temp": 14.0,
+      "rainfall": 108.0,
+      "min_temp": 8.7,
+      "max_temp": 19.9,
+      "sunshine_hours": 195.5
+    },
+    "2022-05": {
+      "average_temp": 18.0,
+      "rainfall": 53.5,
+      "min_temp": 12.4,
+      "max_temp": 24.3,
+      "sunshine_hours": 208.8
+    },
+    "2022-06": {
+      "average_temp": 23.2,
+      "rainfall": 73.5,
+      "min_temp": 18.7,
+      "max_temp": 28.6,
+      "sunshine_hours": 183.0
+    },
+    "2022-07": {
+      "average_temp": 26.8,
+      "rainfall": 140.0,
+      "min_temp": 23.0,
+      "max_temp": 31.7,
+      "sunshine_hours": 150.4
+    },
+    "2022-08": {
+      "average_temp": 27.8,
+      "rainfall": 159.5,
+      "min_temp": 23.8,
+      "max_temp": 33.3,
+      "sunshine_hours": 171.5
+    },
+    "2022-09": {
+      "average_temp": 24.3,
+      "rainfall": 201.0,
+      "min_temp": 20.6,
+      "max_temp": 28.9,
+      "sunshine_hours": 121.4
+    },
+    "2022-10": {
+      "average_temp": 16.6,
+      "rainfall": 158.5,
+      "min_temp": 11.8,
+      "max_temp": 21.8,
+      "sunshine_hours": 154.1
+    },
+    "2022-11": {
+      "average_temp": 13.1,
+      "rainfall": 70.5,
+      "min_temp": 8.3,
+      "max_temp": 18.5,
+      "sunshine_hours": 138.6
+    },
+    "2022-12": {
+      "average_temp": 6.0,
+      "rainfall": 82.5,
+      "min_temp": 1.9,
+      "max_temp": 9.9,
+      "sunshine_hours": 94.6
+    },
+    "2023-01": {
+      "average_temp": 3.5,
+      "rainfall": 237.5,
+      "min_temp": -0.2,
+      "max_temp": 7.5,
+      "sunshine_hours": 60.9
+    },
+    "2023-02": {
+      "average_temp": 4.9,
+      "rainfall": 78.5,
+      "min_temp": 0.9,
+      "max_temp": 8.8,
+      "sunshine_hours": 80.8
+    },
+    "2023-03": {
+      "average_temp": 10.5,
+      "rainfall": 107.0,
+      "min_temp": 4.8,
+      "max_temp": 16.7,
+      "sunshine_hours": 193.3
+    },
+    "2023-04": {
+      "average_temp": 13.9,
+      "rainfall": 131.5,
+      "min_temp": 8.6,
+      "max_temp": 19.2,
+      "sunshine_hours": 163.9
+    },
+    "2023-05": {
+      "average_temp": 18.2,
+      "rainfall": 219.5,
+      "min_temp": 13.3,
+      "max_temp": 24.0,
+      "sunshine_hours": 202.3
+    },
+    "2023-06": {
+      "average_temp": 22.4,
+      "rainfall": 193.0,
+      "min_temp": 18.2,
+      "max_temp": 27.6,
+      "sunshine_hours": 118.9
+    },
+    "2023-07": {
+      "average_temp": 27.6,
+      "rainfall": 132.0,
+      "min_temp": 23.2,
+      "max_temp": 33.2,
+      "sunshine_hours": 223.8
+    },
+    "2023-08": {
+      "average_temp": 29.5,
+      "rainfall": 97.0,
+      "min_temp": 25.4,
+      "max_temp": 34.9,
+      "sunshine_hours": 229.3
+    },
+    "2023-09": {
+      "average_temp": 25.8,
+      "rainfall": 182.0,
+      "min_temp": 22.1,
+      "max_temp": 31.2,
+      "sunshine_hours": 135.6
+    },
+    "2023-10": {
+      "average_temp": 17.0,
+      "rainfall": 139.0,
+      "min_temp": 12.4,
+      "max_temp": 22.7,
+      "sunshine_hours": 171.5
+    },
+    "2023-11": {
+      "average_temp": 12.8,
+      "rainfall": 160.0,
+      "min_temp": 7.9,
+      "max_temp": 18.1,
+      "sunshine_hours": 132.4
+    },
+    "2023-12": {
+      "average_temp": 7.8,
+      "rainfall": 73.5,
+      "min_temp": 3.4,
+      "max_temp": 12.5,
+      "sunshine_hours": 119.6
+    },
+    "2024-01": {
+      "average_temp": 5.1,
+      "rainfall": 210.5,
+      "min_temp": 1.4,
+      "max_temp": 9.0,
+      "sunshine_hours": 74.3
+    },
+    "2024-02": {
+      "average_temp": 6.7,
+      "rainfall": 155.0,
+      "min_temp": 3.5,
+      "max_temp": 10.3,
+      "sunshine_hours": 47.0
+    },
+    "2024-03": {
+      "average_temp": 7.2,
+      "rainfall": 164.0,
+      "min_temp": 2.9,
+      "max_temp": 11.7,
+      "sunshine_hours": 110.5
+    },
+    "2024-04": {
+      "average_temp": 15.3,
+      "rainfall": 181.5,
+      "min_temp": 10.4,
+      "max_temp": 20.6,
+      "sunshine_hours": 175.8
+    },
+    "2024-05": {
+      "average_temp": 17.8,
+      "rainfall": 190.5,
+      "min_temp": 12.5,
+      "max_temp": 23.2,
+      "sunshine_hours": 187.9
+    },
+    "2024-06": {
+      "average_temp": 22.8,
+      "rainfall": 174.5,
+      "min_temp": 18.5,
+      "max_temp": 28.2,
+      "sunshine_hours": 172.0
+    },
+    "2024-07": {
+      "average_temp": 27.6,
+      "rainfall": 299.0,
+      "min_temp": 23.7,
+      "max_temp": 33.4,
+      "sunshine_hours": 177.9
+    },
+    "2024-08": {
+      "average_temp": 28.2,
+      "rainfall": 41.0,
+      "min_temp": 24.5,
+      "max_temp": 32.9,
+      "sunshine_hours": 186.7
+    },
+    "2024-09": {
+      "average_temp": 26.9,
+      "rainfall": 62.5,
+      "min_temp": 22.8,
+      "max_temp": 32.5,
+      "sunshine_hours": 207.4
+    },
+    "2024-10": {
+      "average_temp": 19.8,
+      "rainfall": 339.5,
+      "min_temp": 15.8,
+      "max_temp": 24.4,
+      "sunshine_hours": 121.9
+    },
+    "2024-11": {
+      "average_temp": 13.0,
+      "rainfall": 239.5,
+      "min_temp": 8.5,
+      "max_temp": 17.6,
+      "sunshine_hours": 124.2
+    },
+    "2024-12": {
+      "average_temp": 6.3,
+      "rainfall": 235.0,
+      "min_temp": 2.7,
+      "max_temp": 10.3,
+      "sunshine_hours": 61.3
+    }
+  }
+}

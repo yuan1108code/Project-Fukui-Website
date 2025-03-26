@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="pageTitle">人流情報と観光名所</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -49,6 +51,11 @@
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       overflow-x: auto;
+    }
+
+    /* 圖表標籤字體縮小樣式 */
+    .chart-label-smaller {
+      font-size: 0.7em !important;
     }
 
     table {
@@ -113,16 +120,101 @@
     .github-icon {
       height: 55px; /* Github 的 icon 大小 */
     }
+
+    .weather-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.9em;
+      white-space: nowrap;
+      position: relative;
+      padding: 4px 8px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 4px;
+      border: 1px solid #eee;
+    }
+  
+    .weather-label {
+      font-size: 1.0em;
+      color: #666;
+      margin-right: 4px;
+    }
+  
+    .weather-unit {
+      font-size: 1.0em;
+      color: #888;
+      margin-left: 4px;
+    }
+
+    .weather-item img {
+      vertical-align: middle;
+    }
+
+    .weather-info {
+      font-size: 0.8em;
+      color: #666;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 8px;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .weather-info {
+        flex-direction: column;
+        gap: 5px;
+      }
+      
+      .weather-item {
+        width: 100%;
+        justify-content: space-between;
+      }
+  
+      #trendTitle {
+        flex-direction: column;
+        gap: 10px;
+      }
+  
+      .weather-unit {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 2px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="content">
     <h1 id="cityTitle"></h1>
+    
     <canvas id="trafficChart"></canvas>
+
+
 
     <!-- 整合後的排名表格 -->
     <div class="attractions">
-      <h2 id="trendTitle">ランキング</h2>
+      <h2 id="trendTitle" style="display: flex; justify-content: space-between; align-items: center;">
+        <span class="ranking-info">ランキング</span>
+        <span class="weather-info" style="display: flex; align-items: center; gap: 15px;">
+          <span class="weather-item">
+            <span class="weather-label">気温</span>
+              <img src="./data/Temperature.png" alt="Temperature" style="height: 24px;">
+              <span id="tempInfo">--</span>
+              <span class="weather-unit">(最低/平均/最高)</span>
+            </span>
+            <span class="weather-item">
+              <span class="weather-label">降水量</span>
+              <img src="./data/Rain.png" alt="Rain" style="height: 24px;">
+              <span id="rainInfo">--</span>
+            </span>
+            <span class="weather-item">
+              <span class="weather-label">日照時間</span>
+              <img src="./data/Sun.png" alt="Sun" style="height: 24px;">
+              <span id="sunInfo">--</span>
+            </span>
+          </span>
+        </span>
+      </h2>
       <table>
         <thead>
           <tr>
@@ -142,6 +234,12 @@
         </tbody>
       </table>
     </div>
+  
+    <!-- 新增地圖區塊 -->
+    <div id="mapContainer" style="margin-top: 3vh; margin-bottom: 3vh;">
+      <h2 style="text-align: center;">観光スポット地図</h2>
+      <div id="map" style="width: 100%; height: 50vh; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);"></div>
+    </div>
   </div>
 
   <script>
@@ -149,6 +247,11 @@
     let trafficChart = null;
     let lastSelectedMonth = null;
     let anomalies = [];
+    let map = null;
+    let markers = [];
+    let locationData = [];
+    let hotLocations = new Set(); // 存儲熱門景點（出現在排名中的景點）
+    let weatherData = {}; // 存儲天氣數據
 
     function getCityFromURL() {
       const params = new URLSearchParams(window.location.search);
@@ -164,13 +267,46 @@
     document.title = city + " の人流情報と観光名所";
 
     document.addEventListener("DOMContentLoaded", function () {
-      fetch('./data/city_traffic.json')
+      // 先加載天氣數據
+      fetch('./data/weather_data.json')
         .then(response => response.json())
         .then(data => {
-          if (!data[city]) {
-            console.error(`❌ 找不到 ${city} 的數據`);
-            return;
+          if (data[city]) {
+            weatherData = data[city];
+            console.log("✅ 已載入天氣數據:", city, weatherData);
+            
+            // 在天氣數據加載完成後再加載交通數據和創建圖表
+            loadTrafficDataAndCreateChart();
+          } else {
+            console.error(`❌ 找不到 ${city} 的天氣數據`);
+            // 即使沒有天氣數據，也繼續加載交通數據
+            loadTrafficDataAndCreateChart();
           }
+        })
+        .catch(err => {
+          console.error("載入天氣數據失敗: ", err);
+          // 出錯時也繼續加載交通數據
+          loadTrafficDataAndCreateChart();
+        });
+        
+      // 載入景點資料（可以與天氣數據並行加載）
+      fetch('./data/fukui_location.json')
+        .then(response => response.json())
+        .then(data => {
+          locationData = data.filter(location => location.city === city);
+          initMap();
+        })
+        .catch(err => console.error("載入景點資料失敗: ", err));
+        
+      // 將交通數據加載和圖表創建移到單獨的函數中
+      function loadTrafficDataAndCreateChart() {
+        fetch('./data/city_traffic.json')
+          .then(response => response.json())
+          .then(data => {
+            if (!data[city]) {
+              console.error(`❌ 找不到 ${city} 的數據`);
+              return;
+            }
 
           const cityData = data[city];
           const months = cityData.month;
@@ -179,83 +315,223 @@
 
           const ctx = document.getElementById('trafficChart').getContext('2d');
 
-          function createChart() {
-            return new Chart(ctx, {
-              type: 'line',
-              data: {
-                labels: months,
-                datasets: [{
-                  label: '人流數',
-                  data: counts,
-                  borderColor: 'rgba(54, 162, 235, 1)',
-                  backgroundColor: 'rgba(54, 162, 235, 0.2)',
-                  fill: true,
-                  borderWidth: 2,
-                  tension: 0.4,
-                  pointBackgroundColor: anomalies.map(a => a === -1 ? 'red' : 'blue'),
-                  pointBorderColor: anomalies.map(a => a === -1 ? 'red' : 'blue'),
-                  pointRadius: anomalies.map(a => a === -1 ? 6 : 3),
-                  pointHoverRadius: anomalies.map(a => a === -1 ? 8 : 5)
-                }]
-              },
-              options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                  title: {
-                    display: true,
-                    text: city + ' 人流數趨勢圖',
-                    font: { size: getFontSize(1.2) }
+            function createChart() {
+              // 獲取天氣數據並輸出到控制台進行調試
+              const tempData = getWeatherDataForMonths(months, 'average_temp');
+              const minTempData = getWeatherDataForMonths(months, 'min_temp');
+              const maxTempData = getWeatherDataForMonths(months, 'max_temp');
+              const rainData = getWeatherDataForMonths(months, 'rainfall');
+              const sunData = getWeatherDataForMonths(months, 'sunshine_hours');
+              
+              console.log("溫度數據:", tempData);
+              console.log("最低溫度數據:", minTempData);
+              console.log("最高溫度數據:", maxTempData);
+              console.log("降水量數據:", rainData);
+              console.log("日照時間數據:", sunData);
+              
+              return new Chart(ctx, {
+                type: 'line',
+                data: {
+                  labels: months,
+                  datasets: [{
+                    label: '人流数',
+                    data: counts,
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    fill: true,
+                    borderWidth: 2,
+                    tension: 0.4,
+                    pointBackgroundColor: anomalies.map(a => a === -1 ? 'red' : 'blue'),
+                    pointBorderColor: anomalies.map(a => a === -1 ? 'red' : 'blue'),
+                    pointRadius: anomalies.map(a => a === -1 ? 6 : 3),
+                    pointHoverRadius: anomalies.map(a => a === -1 ? 8 : 5),
+                    yAxisID: 'y'
                   },
-                  tooltip: {
-                    titleFont: { size: getFontSize(0.5) },
-                    bodyFont: { size: getFontSize(0.5) }
-                  }
+                  {
+                    label: '平均気温 (°C)',
+                    data: tempData,
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    hidden: true,
+                    yAxisID: 'y1'
+                  },
+                  {
+                    label: '最低気温 (°C)',
+                    data: minTempData,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    hidden: true,
+                    yAxisID: 'y1'
+                  },
+                  {
+                    label: '最高気温 (°C)',
+                    data: maxTempData,
+                    borderColor: 'rgba(255, 159, 64, 1)',
+                    backgroundColor: 'rgba(255, 159, 64, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    hidden: true,
+                    yAxisID: 'y1'
+                  },
+                  {
+                    label: '降水量 (mm)',
+                    data: rainData,
+                    borderColor: 'rgba(153, 102, 255, 1)',
+                    backgroundColor: 'rgba(153, 102, 255, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    hidden: true,
+                    yAxisID: 'y2'
+                  },
+                  {
+                    label: '日照時間 (時間)',
+                    data: sunData,
+                    borderColor: 'rgba(255, 206, 86, 1)',
+                    backgroundColor: 'rgba(255, 206, 86, 0.1)',
+                    borderWidth: 2,
+                    tension: 0.4,
+                    hidden: true,
+                    yAxisID: 'y3'
+                  }]
                 },
-                scales: {
-                  x: {
+                options: {
+                  responsive: true,
+                  maintainAspectRatio: false,
+                  plugins: {
                     title: {
                       display: true,
-                      text: '月份',
-                      font: { size: getFontSize(0.6) }
+                      text: city + ' 人流數趨勢圖',
+                      font: { size: getFontSize(1.2) }
                     },
-                    ticks: {
-                      font: { size: getFontSize(0.5) }
+                    tooltip: {
+                      titleFont: { size: getFontSize(0.5) },
+                      bodyFont: { size: getFontSize(0.5) }
+                    },
+                    legend: {
+                      onClick: function(e, legendItem, legend) {
+                        const index = legendItem.datasetIndex;
+                        const ci = this.chart;
+                        
+                        // 切換數據集可見性
+                        const meta = ci.getDatasetMeta(index);
+                        meta.hidden = meta.hidden === null ? !ci.data.datasets[index].hidden : null;
+                        
+                        // 先更新圖表
+                        ci.update('none'); // 使用 'none' 避免動畫延遲
+                        
+                        // 然後更新Y軸顯示
+                        updateYAxisVisibility();
+                      },
+                      labels: {
+                        font: { size: getFontSize(0.45) }
+                      }
                     }
                   },
-                  y: {
-                    title: {
-                      display: true,
-                      text: '人流數',
-                      font: { size: getFontSize(0.6) }
+                  scales: {
+                    x: {
+                      title: {
+                        display: true,
+                        text: '月份',
+                        font: { size: getFontSize(0.6) }
+                      },
+                      ticks: {
+                        font: { size: getFontSize(0.5) }
+                      }
                     },
-                    ticks: {
-                      font: { size: getFontSize(0.5) }
+                    y: {
+                      position: 'left',
+                      title: {
+                        display: true,
+                        text: '人流数',
+                        font: { size: getFontSize(0.6) }
+                      },
+                      ticks: {
+                        font: { size: getFontSize(0.5) }
+                      }
+                    },
+                    y1: {
+                      position: 'right',
+                      title: {
+                        display: true,
+                        text: '気温 (°C)',
+                        font: { size: getFontSize(0.6) }
+                      },
+                      ticks: {
+                        font: { size: getFontSize(0.5) }
+                      },
+                      grid: {
+                        drawOnChartArea: false
+                      },
+                      display: false, // 初始隱藏
+                      min: -5,
+                      max: 40
+                    },
+                    y2: {
+                      position: 'right',
+                      title: {
+                        display: true,
+                        text: '降水量 (mm)',
+                        font: { size: getFontSize(0.6) }
+                      },
+                      ticks: {
+                        font: { size: getFontSize(0.5) }
+                      },
+                      grid: {
+                        drawOnChartArea: false
+                      },
+                      display: false, // 初始隱藏
+                      min: 0,
+                      max: 500
+                    },
+                    y3: {
+                      position: 'right',
+                      title: {
+                        display: true,
+                        text: '日照時間 (時間)',
+                        font: { size: getFontSize(0.6) }
+                      },
+                      ticks: {
+                        font: { size: getFontSize(0.5) }
+                      },
+                      grid: {
+                        drawOnChartArea: false
+                      },
+                      display: false, // 初始隱藏
+                      min: 0,
+                      max: 300
                     }
-                  }
-                },
-                onClick: (event, activeElements) => {
-                  if (activeElements.length > 0) {
-                    const index = activeElements[0].index;
-                    let clickedMonth = trafficChart.data.labels[index].replace(/🔴 /g, ""); 
-                    
-                    console.log("🟢 選中的月份:", clickedMonth);
-                    
-                    // 更新整合排名表格（同時更新 Google Trend 與 Github）
-                    updateTrendRanking(clickedMonth);
-    
-                    // 標記點擊的月份
-                    highlightSelectedMonth(clickedMonth);
+                  },
+                  onClick: (event, activeElements) => {
+                    if (activeElements.length > 0) {
+                      const index = activeElements[0].index;
+                      let clickedMonth = trafficChart.data.labels[index].replace(/🔴 /g, ""); 
+                      
+                      console.log("🟢 選中的月份:", clickedMonth);
+                      
+                      // 更新整合排名表格（同時更新 Google Trend 與 Github）
+                      updateTrendRanking(clickedMonth);
+      
+                      // 標記點擊的月份
+                      highlightSelectedMonth(clickedMonth);
+                    }
                   }
                 }
-              }
-            });
-          }
+              });
+            }
 
-          trafficChart = createChart();
-        })
-        .catch(err => console.error("數據加載失敗: ", err));
-        
+            trafficChart = createChart();
+            
+            // 在圖表創建後確保初始狀態正確
+            updateYAxisVisibility(); // 確保初始狀態下只顯示需要的軸
+            trafficChart.update();
+          })
+          .catch(err => console.error("數據加載失敗: ", err));
+      }
+
       function adjustTableFontSize() {
         document.querySelector("h2#trendTitle").style.fontSize = getFontSize(0.7) + "px";
         document.querySelectorAll("th").forEach(th => th.style.fontSize = getFontSize(0.7) + "px");
@@ -270,7 +546,6 @@
         trafficChart.options.scales.y.title.font.size = getFontSize(0.8);
         trafficChart.options.scales.y.ticks.font.size = getFontSize(0.6);
         trafficChart.update();
-    
         adjustTableFontSize();
       });
     
@@ -315,19 +590,110 @@
         trafficChart.update();
       }
     
-      // 更新整合後的 updateTrendRanking()，同時以 Google Trend 的數據暫代 Github
+      // 初始化地圖
+      function initMap() {
+        // 創建地圖
+        map = L.map('map').setView([36.0641, 136.2196], 12); // 預設福井市中心位置
+
+        // 添加地圖圖層
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // 如果有該城市的景點資料，調整地圖視角
+        if (locationData.length > 0) {
+          // 計算所有景點的平均經緯度作為地圖中心
+          const latSum = locationData.reduce((sum, loc) => sum + loc.coordinates.latitude, 0);
+          const lngSum = locationData.reduce((sum, loc) => sum + loc.coordinates.longitude, 0);
+          const centerLat = latSum / locationData.length;
+          const centerLng = lngSum / locationData.length;
+          
+          map.setView([centerLat, centerLng], 11);
+          
+          // 添加所有景點標記
+          updateMapMarkers();
+        }
+      }
+
+      // 更新地圖標記
+      function updateMapMarkers() {
+        // 清除現有標記
+        markers.forEach(marker => map.removeLayer(marker));
+        markers = [];
+        
+        // 添加新標記
+        locationData.forEach(location => {
+          const isHot = hotLocations.has(location.location);
+          const icon = L.icon({
+            iconUrl: isHot ? './data/localization_hot.png' : './data/localization.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
+          });
+          
+          // 獲取熱門度指標信息
+          let popularityInfo = "";
+          if (isHot && lastSelectedMonth) {
+            // 檢查Google趨勢排名
+            const googleRank = getLocationRank(location.location, 'google');
+            if (googleRank > 0) {
+              popularityInfo += `<br>Google Trends: Top${googleRank}`;
+            }
+            
+            // 檢查GitHub排名
+            const githubRank = getLocationRank(location.location, 'github');
+            if (githubRank > 0) {
+              popularityInfo += `<br>GitHub: Top${githubRank}`;
+            }
+          }
+          
+          const marker = L.marker(
+            [location.coordinates.latitude, location.coordinates.longitude], 
+            { icon: icon }
+          ).addTo(map);
+          
+          marker.bindPopup(`<b>${location.location}</b><br>${location.city}${popularityInfo}`);
+          markers.push(marker);
+        });
+      }
+
+      // 獲取景點在特定數據源中的排名
+      function getLocationRank(locationName, source) {
+        if (!lastSelectedMonth) return -1;
+        
+        // 直接使用已經載入的排名數據
+        if (source === 'google' && window.currentGoogleRanking) {
+          for (let i = 0; i < window.currentGoogleRanking.length; i++) {
+            if (window.currentGoogleRanking[i].name === locationName) {
+              return i + 1; // 排名從1開始
+            }
+          }
+        } else if (source === 'github' && window.currentGithubRanking) {
+          for (let i = 0; i < window.currentGithubRanking.length; i++) {
+            if (window.currentGithubRanking[i].name === locationName) {
+              return i + 1; // 排名從1開始
+            }
+          }
+        }
+        
+        return -1; // 未找到排名
+      }
+
+      // 更新整合後的 updateTrendRanking()
       function updateTrendRanking(yearMonth) {
         if (lastSelectedMonth === yearMonth) return;
         lastSelectedMonth = yearMonth;
     
         Promise.all([
           fetch('./data/city_Google_Trends.json').then(response => response.json()),
-          fetch('./data/city_GitHub.json').then(response => response.json())
+          fetch('./data/city_GitHub.json').then(response => response.json()),
+          fetch('./data/weather_data.json').then(response => response.json())
         ])
-        .then(([googleData, githubData]) => {
+        .then(([googleData, githubData, weatherData]) => {
           console.log("🔍 Google Trends 資料:", googleData);
           console.log("🔍 Github 資料:", githubData);
-    
+          console.log("🔍 Weather 資料:", weatherData);
+
           if (!googleData[yearMonth]) {
             console.warn(`⚠️ 沒有找到 ${yearMonth} 的 Google Trend 數據`);
           }
@@ -342,10 +708,51 @@
           // 當前月份人流數（依舊從 chart 上取出）
           let index = trafficChart.data.labels.findIndex(label => label.includes(yearMonth));
           let selectedCount = index !== -1 ? trafficChart.data.datasets[0].data[index] : "??";
-    
-          // 更新標題，顯示所選月份及人流數
-          document.getElementById("trendTitle").innerHTML = 
+          
+          // 處理天氣資料
+          const cityWeather = weatherData[city] && weatherData[city][yearMonth];
+          if (cityWeather) {
+            document.getElementById("tempInfo").innerHTML = 
+              `${cityWeather.min_temp}°C / ${cityWeather.average_temp}°C / ${cityWeather.max_temp}°C`;
+            
+            const rainfall = cityWeather.rainfall === -99 ? "N/A" : `${cityWeather.rainfall}mm`;
+            document.getElementById("rainInfo").innerHTML = rainfall;
+            
+            const sunshine = cityWeather.sunshine_hours === -99 ? "N/A" : `${cityWeather.sunshine_hours}h`;
+            document.getElementById("sunInfo").innerHTML = sunshine;
+          } else {
+            document.getElementById("tempInfo").innerHTML = "N/A";
+            document.getElementById("rainInfo").innerHTML = "N/A";
+            document.getElementById("sunInfo").innerHTML = "N/A";
+          }
+
+          document.querySelector(".ranking-info").innerHTML = 
             `ランキング (${yearMonth}) - 人流数 ${selectedCount} 人`;
+    
+          // 更新熱門景點集合
+          hotLocations.clear();
+          googleTrends.forEach((item, index) => {
+            if (item && item.name) {
+              hotLocations.add(item.name);
+              // 儲存Google排名信息
+              item.rank = index + 1;
+            }
+          });
+          
+          githubRanking.forEach((item, index) => {
+            if (item && item.name) {
+              hotLocations.add(item.name);
+              // 儲存GitHub排名信息
+              item.rank = index + 1;
+            }
+          });
+          
+          // 儲存排名數據以供彈出窗口使用
+          window.currentGoogleRanking = googleTrends;
+          window.currentGithubRanking = githubRanking;
+          
+          // 更新地圖標記
+          updateMapMarkers();
     
           // 產生排名表格內容，固定 Top 1 至 Top 5
           let html = "";
@@ -370,6 +777,79 @@
       }
     
     });
+
+    // 根據月份獲取天氣數據
+    function getWeatherDataForMonths(months, dataType) {
+      if (!weatherData) return Array(months.length).fill(null);
+      
+      return months.map(month => {
+        // 將月份格式從 "2022年1月" 轉換為 "2022-01"
+        const formattedMonth = month.replace(/(\d{4})年(\d{1,2})月/, (match, year, month) => {
+          return `${year}-${month.padStart(2, '0')}`;
+        });
+        
+        if (weatherData[formattedMonth] && weatherData[formattedMonth][dataType] !== undefined) {
+          // 確保返回數值而非字符串
+          const value = weatherData[formattedMonth][dataType];
+          return value === -99 ? null : Number(value);
+        }
+        return null;
+      });
+    }
+    
+    // 更新Y軸的顯示狀態
+    function updateYAxisVisibility() {
+      if (!trafficChart) return;
+    
+      // 檢查各數據集的可見狀態 - 使用 isDatasetVisible 方法
+      const tempVisible = 
+        trafficChart.isDatasetVisible(1) || 
+        trafficChart.isDatasetVisible(2) || 
+        trafficChart.isDatasetVisible(3);
+      
+      const rainVisible = trafficChart.isDatasetVisible(4);
+      const sunVisible = trafficChart.isDatasetVisible(5);
+      
+      console.log("圖例點擊後 - 溫度可見:", tempVisible, "降水量可見:", rainVisible, "日照可見:", sunVisible);
+      
+      // 直接設置軸的顯示狀態
+      trafficChart.options.scales.y1.display = tempVisible;
+      trafficChart.options.scales.y2.display = rainVisible;
+      trafficChart.options.scales.y3.display = sunVisible;
+      
+      // 重置所有軸的偏移設置
+      ['y1', 'y2', 'y3'].forEach(axisId => {
+        if (trafficChart.options.scales[axisId].afterFit) {
+          delete trafficChart.options.scales[axisId].afterFit;
+        }
+      });
+      
+      // 計算需要顯示的軸
+      const visibleAxes = [];
+      if (tempVisible) visibleAxes.push('y1');
+      if (rainVisible) visibleAxes.push('y2');
+      if (sunVisible) visibleAxes.push('y3');
+      
+      // 如果有多個軸需要顯示，設置偏移量
+      if (visibleAxes.length > 1) {
+        visibleAxes.forEach((axisId, index) => {
+          if (index > 0) {
+            // 從第二個軸開始設置偏移
+            trafficChart.options.scales[axisId].afterFit = function(scale) {
+              scale.paddingRight = index * 40;
+            };
+          }
+        });
+      }
+      
+      // 強制更新圖表以應用新的軸設置
+      trafficChart.update();
+      
+      console.log("Y軸顯示狀態 - Y1:", trafficChart.options.scales.y1.display, 
+                  "Y2:", trafficChart.options.scales.y2.display, 
+                  "Y3:", trafficChart.options.scales.y3.display);
+    }
+    
   </script>
 
   <a href="./index.html">戻る</a>

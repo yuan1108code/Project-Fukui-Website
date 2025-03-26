@@ -41,7 +41,7 @@ const regions = [
 
     // ✅ 若狹地區（敦賀市、小濱市、美濱町、若狹町、高濱町、大飯町）
     { name: "美浜町", coords: [35.5856, 135.9932], img: "static/images/mihama.jpg" },
-    { name: "若狹町", coords: [35.4801, 135.9256], img: "static/images/wakasa.jpg" },
+    { name: "若狭町", coords: [35.4801, 135.9256], img: "static/images/wakasa.jpg" },
     { name: "高浜町", coords: [35.4782, 135.5271], img: "static/images/takahama.jpg" },
     { name: "大飯町", coords: [35.4825, 135.6467], img: "static/images/ooi.jpeg" }
 ];

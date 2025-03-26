@@ -11,6 +11,10 @@ df = df[df["都道府県名"] == "福井県"]
 
 # 建立月份欄位，格式為 "YYYY-MM"
 df["month"] = df["年"].astype(str) + "-" + df["月"].apply(lambda x: f"{int(x):02d}")
+df['地域名称'] = df['地域名称'].replace({
+    'おおい町': '大飯町',
+    'あわら市': '蘆原市'
+})
 
 # 依據「地域名称」與「month」分組，對「人数」進行求和
 grouped = df.groupby(["地域名称", "month"])["人数"].sum().reset_index()
